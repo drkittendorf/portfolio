@@ -31,14 +31,10 @@
    background-color:yellow;
    height: 15px;
    width: 150px;
-   border-radius: 3rem;
+   border-radius: .5rem;
  }
  
- /* #cdesc {
- width: 25vw;
- margin-right:0px;
-
- } */
+ 
 
 
 
@@ -50,6 +46,11 @@
   margin-top: -400px;
 
  }
+
+ #desc {
+    width: 25vw;
+    margin-right:0px;
+   }
 
  #desc {  
     display: flex;

@@ -5,7 +5,7 @@ import noteTaker from '../assets/images/NoteTaker.png';
 // import spacPort from '../assets/images/SpacePortal.png';
 // import webOrg from '../assets/images/WebOrganizer.png';
 // import codeRe from '../assets/images/CodeRefactor.png';
-import Carousel from 'react-bootstrap-carousel';
+import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import "../assets/css/portfolio.css" 
 // import {Link} from "react-router-dom"
@@ -37,9 +37,9 @@ export default function Portfolio() {
           </Carousel.Caption>
 
         </Carousel.Item>
-{/* <div id="descdiv" style={{width:"25vw"}}>
-             <p id="desc">THIS IS OUR DIVkdjsfgblksdjgflkajsdflksjdfkljasdflkjasdlfkjbsadlkfjbsadlkfjbasdlg;lkdfgsdfgkljsdfkgjhhsdkfgljhsd;lfgkhsdlkfg;ldskjfgldksjfglkdsjfglkjds;flgkds;flgkjsdlfgjkjfbslkdjfbaskD</p>
-         </div> */}
+         <div id="descdiv" style={{width:"25vw"}}>
+             <p id="desc">gjkj</p>
+         </div> 
 
         {/* <Carousel.Item>
           <img className="d-block w-40 mx-auto image1" src={codeQuiz} alt="Second slide"/>
@@ -47,19 +47,17 @@ export default function Portfolio() {
             <h1>Second slide label</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
 
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img
             className="d-block w-40 mx-auto image1" src={noteTaker} alt="Third slide" />
             <Carousel.Caption>
             <h3>Third slide label</h3>
             <p> Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </Carousel.Caption>
-        </Carousel.Item> */}
+        </Carousel.Item>  */}
 
       </Carousel>
     )
     };
-  
- 
