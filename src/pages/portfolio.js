@@ -32,31 +32,49 @@ export default function Portfolio() {
            </div>
           <Carousel.Caption id="descdiv" >
               <div>
-              <p id="desc" style={{width:"25vw"}}>This will be a lengthy description of the app</p>
+              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, JavaScript, </p>
               </div>
           </Carousel.Caption>
-
         </Carousel.Item>
-         <div id="descdiv" style={{width:"25vw"}}>
+
+
+         {/* <div id="descdiv" style={{width:"25vw"}}>
              <p id="desc">gjkj</p>
-         </div> 
+         </div>  */}
 
-        {/* <Carousel.Item>
-          <img className="d-block w-40 mx-auto image1" src={codeQuiz} alt="Second slide"/>
-          <Carousel.Caption>
-            <h1>Second slide label</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <Carousel.Item>
+          <Carousel.Caption id="title">
+              <div>
+              <h1 id="title" align="left">Code Quiz</h1>
+              </div>
           </Carousel.Caption>
-        </Carousel.Item> */}
+           <div> 
+           <img className="d-block w-40 mx-auto image1" src={codeQuiz} 
+          href='https://safe-dusk-58943.herokuapp.com/' alt="Code Quiz" target='_blank' rel='noopener noreferrer' />
+           </div>
+          <Carousel.Caption id="descdiv" >
+              <div>
+              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, JavaScript, </p>
+              </div>
+          </Carousel.Caption>
+        </Carousel.Item>
 
-        {/* <Carousel.Item>
-          <img
-            className="d-block w-40 mx-auto image1" src={noteTaker} alt="Third slide" />
-            <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p> Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <Carousel.Item>
+          <Carousel.Caption id="title">
+              <div>
+              <h1 id="title" align="left">Note Taker</h1>
+              </div>
           </Carousel.Caption>
-        </Carousel.Item>  */}
+           <div> 
+           <img className="d-block w-40 mx-auto image1" src={noteTaker} 
+          href='https://safe-dusk-58943.herokuapp.com/' alt="Note Taker" target='_blank' rel='noopener noreferrer' />
+           </div>
+          <Carousel.Caption id="descdiv" >
+              <div>
+              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, JavaScript, </p>
+              </div>
+          </Carousel.Caption>
+        </Carousel.Item>
 
       </Carousel>
     )

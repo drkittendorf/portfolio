@@ -33,40 +33,34 @@
    width: 150px;
    border-radius: .5rem;
  }
- 
- 
-
-
 
  #title {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  text-align: left;
-  margin-top: -400px;
-
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: flex-start; */
+  /* text-align: left; */
+  margin-bottom: 10%;
  }
 
- #desc {
+ /* #desc {
     width: 25vw;
     margin-right:0px;
-   }
+   } */
 
- #desc {  
+ #description {  
     display: flex;
     flex-direction: column ;
     justify-content: flex-end;
-     text-align: right;
-    /* justify-content: right;
+    text-align: center;
+    /* justify-content: center; */
     align-items: right;
-     */
-     /* margin-top: -00px; */
-     margin: 100% 100% 0% 50%;
+    margin-bottom: 100px;
+    margin: 200% 300% 0% 75%;
     word-wrap: break-word;
+    font-size: 1rem;
  }
 
  #descdiv {
     margin-top: -400px;
     margin-right: -100px;
-
  }
