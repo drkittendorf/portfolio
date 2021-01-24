@@ -1,21 +1,21 @@
 import React from "react";
-// import "../../assets/css/style.css"
+import "../assets/css/style.css"
 import dale from '../assets/images/aboutDale.png';
 
 
 function about() {
   return (
-    <div className="body">
-    <div> <img src={dale}  alt="Dale Kittendorf"/> </div>  
-      
-      <h1>~ About ~</h1>
-        <p>
-            Thank You for visiting my portfolio site!
-        </p>
+    <div className="bodybody">
+    <div> <img src={dale} className="imageD" alt="Dale Kittendorf"/> </div>  
+                
       <div className="aboutBody">
+      <h1>~ About ~</h1>
+         <p>
+            Thank You for visiting my portfolio site!
+         </p>
         
         <p>
-            I am a web developer committed to a life of learning. I am currently enrolled in the Full Stack Web Development Bootcamp at University of Texas, Austin. 
+            I am a web developer committed to a life of learning. I have recently completed my Full Stack Web Development Certificate at the University of Texas, Austin. 
             I also have a background in Library and Information Science. Since moving to Austin in 2014 I have had the opportunity to explore the film and music industry.
             While at Austin Public Library I lead the development of the  Electric Lady Bird streaming music service 
             and initiated the development of a Sight and Sound team at the Library.

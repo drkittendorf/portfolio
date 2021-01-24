@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: black;
+    background: rgb(25, 79, 179);
     font-size: 2rem;
     font-family: 'Archivo', sans-serif;
     color: hsl(32, 98%, 64%);
@@ -28,10 +28,12 @@
  }
 
  .carousel-indicators li{
-   background-color:yellow;
-   height: 15px;
-   width: 150px;
-   border-radius: .5rem;
+   background-color:rgb(252, 67, 206);
+   height: 1vh;
+   width: 20vw;
+   border-radius: .75rem;
+   margin-bottom: -30%;
+
  }
 
  #title {

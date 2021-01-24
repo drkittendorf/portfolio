@@ -1,12 +1,14 @@
 import React from "react";
-// import "../../assets/css/style.css"
+import "../../assets/css/style.css"
 
 function Header() {
 return (
-<div className='body'>
-    <h1>Dale Kittendorf</h1>
+<div className='head'>
+    <div>
+        <h1>Dale Kittendorf</h1>
+    </div>
         <div>
-         <h2> Web Developer :: Austin,Texas </h2>
+    <h2> Web Developer :: Austin,Texas </h2>
         </div>
 </div>
 )}

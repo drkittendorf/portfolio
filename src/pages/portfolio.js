@@ -4,7 +4,7 @@ import codeQuiz from '../assets/images/CodeQuiz.png';
 import noteTaker from '../assets/images/NoteTaker.png';
 // import spacPort from '../assets/images/SpacePortal.png';
 // import webOrg from '../assets/images/WebOrganizer.png';
-// import codeRe from '../assets/images/CodeRefactor.png';
+import codeRefactor from '../assets/images/CodeRefactor.png';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import "../assets/css/portfolio.css" 
@@ -20,7 +20,7 @@ export default function Portfolio() {
     return (
       <Carousel activeIndex={index} onSelect={handleSelect} className="hbody">
 
-        <Carousel.Item>
+        <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
               <div>
               <h1 id="title" align="left">Burger App</h1>
@@ -42,7 +42,7 @@ export default function Portfolio() {
              <p id="desc">gjkj</p>
          </div>  */}
 
-        <Carousel.Item>
+        <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
               <div>
               <h1 id="title" align="left">Code Quiz</h1>
@@ -59,7 +59,7 @@ export default function Portfolio() {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item>
+        <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
               <div>
               <h1 id="title" align="left">Note Taker</h1>
@@ -67,11 +67,28 @@ export default function Portfolio() {
           </Carousel.Caption>
            <div> 
            <img className="d-block w-40 mx-auto image1" src={noteTaker} 
-          href='https://safe-dusk-58943.herokuapp.com/' alt="Note Taker" target='_blank' rel='noopener noreferrer' />
+          href='https://frozen-mesa-87445.herokuapp.com/notes.html' alt="Note Taker" target='_blank' rel='noopener noreferrer' />
            </div>
           <Carousel.Caption id="descdiv" >
               <div>
               <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, JavaScript, </p>
+              </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item interval={5000}>
+          <Carousel.Caption id="title">
+              <div>
+              <h1 id="title" align="left">Code Refactor</h1>
+              </div>
+          </Carousel.Caption>
+           <div> 
+           <img className="d-block w-40 mx-auto image1" src={codeRefactor} 
+          href='https://drkittendorf.github.io/01CodeRefactor/' alt="Note Taker" target='_blank' rel='noopener noreferrer' />
+           </div>
+          <Carousel.Caption id="descdiv" >
+              <div>
+              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, VSCode </p>
               </div>
           </Carousel.Caption>
         </Carousel.Item>
