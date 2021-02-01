@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a21651d3.chunk.css",
-    "main.js": "/portfolio/static/js/main.42bfa6dc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.42bfa6dc.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.dd9f5215.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.dd9f5215.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/portfolio/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.0e9327e8.chunk.js": "/portfolio/static/js/2.0e9327e8.chunk.js",
-    "static/js/2.0e9327e8.chunk.js.map": "/portfolio/static/js/2.0e9327e8.chunk.js.map",
+    "static/js/2.b266ccdd.chunk.js": "/portfolio/static/js/2.b266ccdd.chunk.js",
+    "static/js/2.b266ccdd.chunk.js.map": "/portfolio/static/js/2.b266ccdd.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/portfolio/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.a21651d3.chunk.css.map": "/portfolio/static/css/main.a21651d3.chunk.css.map",
-    "static/js/2.0e9327e8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0e9327e8.chunk.js.LICENSE.txt",
+    "static/js/2.b266ccdd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b266ccdd.chunk.js.LICENSE.txt",
     "static/media/BurgerBender.cab1b51a.png": "/portfolio/static/media/BurgerBender.cab1b51a.png",
     "static/media/CodeQuiz.148b72e0.png": "/portfolio/static/media/CodeQuiz.148b72e0.png",
     "static/media/CodeRefactor.4bf73c38.png": "/portfolio/static/media/CodeRefactor.4bf73c38.png",
     "static/media/DaleRKittendorf2020Resume.8be99516.pdf": "/portfolio/static/media/DaleRKittendorf2020Resume.8be99516.pdf",
     "static/media/EmployeeDirectory.75dad073.png": "/portfolio/static/media/EmployeeDirectory.75dad073.png",
+    "static/media/FitnessTracker.96589bad.png": "/portfolio/static/media/FitnessTracker.96589bad.png",
     "static/media/GoogleBooks.bd4e0ab0.png": "/portfolio/static/media/GoogleBooks.bd4e0ab0.png",
     "static/media/NoteTaker.d5638d64.png": "/portfolio/static/media/NoteTaker.d5638d64.png",
     "static/media/PasswordGenerator.8ce7b6eb.png": "/portfolio/static/media/PasswordGenerator.8ce7b6eb.png",
@@ -26,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.8fed2963.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.0e9327e8.chunk.js",
+    "static/js/2.b266ccdd.chunk.js",
     "static/css/main.a21651d3.chunk.css",
-    "static/js/main.42bfa6dc.chunk.js"
+    "static/js/main.dd9f5215.chunk.js"
   ]
 }
