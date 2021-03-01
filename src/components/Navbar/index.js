@@ -1,7 +1,7 @@
 import "../../assets/css/style.css"
 import React from 'react';
 import {Link} from "react-router-dom"
-import resume from '../../assets/images/DaleRKittendorf2020Resume.pdf';
+import resume from '../../assets/images/DaleRKittendorf2021Resume.pdf';
 
 function Navbar() {
     return (
