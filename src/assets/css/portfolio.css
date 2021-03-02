@@ -14,6 +14,7 @@
    }
 
  .image1 {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -24,11 +25,17 @@
     border-radius: 1.5rem;
     padding: 5px;
     min-width: 100px;
-    min-height: auto
+    min-height: auto;
+    z-index: 1000;
  }
 
+ .image1:hover {
+    transform: scale(0.9);
+    border: 0.25rem solid white;
+  }
+
  .carousel-indicators li{
-   background-color:rgb(252, 67, 206);
+   background-color: whitesmoke;
    height: 1vh;
    width: 20vw;
    border-radius: .75rem;
@@ -42,6 +49,7 @@
   /* justify-content: flex-start; */
   /* text-align: left; */
   margin-bottom: 10%;
+  width: 25vw;
  }
 
  /* #desc {
@@ -59,10 +67,15 @@
     margin-bottom: 100px;
     margin: 200% 300% 0% 75%;
     word-wrap: break-word;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    /* width: 25vw; */
  }
 
- #descdiv {
+ /* #descdiv {
     margin-top: -400px;
     margin-right: -100px;
+ } */
+
+ div.carousel-caption {
+     z-index: 1;
  }

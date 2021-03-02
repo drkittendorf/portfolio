@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import Carousel from 'react-bootstrap/Carousel';
+// import {Link} from 'react-router-dom'
+// IMAGES OF PROJECTS
 import burgerBender from '../assets/images/BurgerBender.png';
 import codeQuiz from '../assets/images/CodeQuiz.png';
 import noteTaker from '../assets/images/NoteTaker.png';
@@ -10,10 +13,10 @@ import passGen from '../assets/images/PasswordGenerator.png';
 import googBook from '../assets/images/GoogleBooks.png';
 import codeRefactor from '../assets/images/CodeRefactor.png';
 import empDir from '../assets/images/EmployeeDirectory.png';
-import Carousel from 'react-bootstrap/Carousel';
+// CSS
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import '../assets/css/portfolio.css'
-// import {Link} from 'react-router-dom'
+
 
 export default function Portfolio() {
     const [index, setIndex] = useState(0);
@@ -22,30 +25,34 @@ export default function Portfolio() {
       setIndex(selectedIndex);
     }; 
 
+     let aa = 'https://dales-google-books-app.herokuapp.com';
+     let ab = 'https://github.com/drkittendorf/21_google_books';
+
     return (
       <Carousel activeIndex={index} onSelect={handleSelect} className="hbody">
        
         {/* Slide #1 */}
-        <Carousel.Item interval={5000}>
+        <Carousel.Item interval={200000}>
+                   
           <Carousel.Caption id="title">
-              <div>
-                <h1 id="title" align="left">Google Books</h1>
-              </div>
+              <h1 id="title" align="left">Google Books</h1>
           </Carousel.Caption>
-           
-           <div> 
-                <a href='https://dales-google-books-app.herokuapp.com' target='_blank' rel='noopener noreferrer'> 
-                    <img src={googBook} alt="Google Books" className="d-block w-40 mx-auto image1"/>
-                </a>
-          </div> 
 
-          <Carousel.Caption id="descdiv" >
-              <div>
+          <a href={aa} target='_blank' rel='noopener noreferrer'> 
+                <img 
+                src={googBook} 
+                className='d-block w-40 mx-auto image1' 
+                alt='Google Books' 
+                />
+           </a>
+                     
+          <Carousel.Caption >
                 <p id="description" style={{width:"25vw"}}> Technologies Used: HTML, CSS, JavaScript, VSCode, MongoDB. 
-                Available @: <a href='https://dales-google-books-app.herokuapp.com' target='_blank' rel='noopener noreferrer'> Google Books </a> 
+                Available @: <a href={aa} target='_blank' rel='noopener noreferrer'> Google Books </a> 
+                <a href={ab} target='_blank' rel='noopener noreferrer'> Google Books GitHub </a> 
                 </p>
-              </div>
           </Carousel.Caption>
+          
         </Carousel.Item>
 
          {/* #2 */}
