@@ -12,8 +12,8 @@ import codeRefactor from '../assets/images/CodeRefactor.png';
 import empDir from '../assets/images/EmployeeDirectory.png';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';  
-import "../assets/css/portfolio.css" 
-// import {Link} from "react-router-dom"
+import '../assets/css/portfolio.css'
+// import {Link} from 'react-router-dom'
 
 export default function Portfolio() {
     const [index, setIndex] = useState(0);
@@ -24,24 +24,30 @@ export default function Portfolio() {
 
     return (
       <Carousel activeIndex={index} onSelect={handleSelect} className="hbody">
-        {/* #1 */}
+       
+        {/* Slide #1 */}
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
               <div>
-              <h1 id="title" align="left">Google Books</h1>
+                <h1 id="title" align="left">Google Books</h1>
               </div>
           </Carousel.Caption>
+           
            <div> 
-           <img className="d-block w-40 mx-auto image1" src={googBook} 
-          href='https://dales-google-books-app.herokuapp.com/' alt="Google Books" target='_blank' rel='noopener noreferrer' />
-           </div>
+                <a href='https://dales-google-books-app.herokuapp.com' target='_blank' rel='noopener noreferrer'> 
+                    <img src={googBook} alt="Google Books" className="d-block w-40 mx-auto image1"/>
+                </a>
+          </div> 
+
           <Carousel.Caption id="descdiv" >
               <div>
-              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, JavaScript, VSCode, MongoDB. 
-              Available @: https://dales-google-books-app.herokuapp.com  </p>
+                <p id="description" style={{width:"25vw"}}> Technologies Used: HTML, CSS, JavaScript, VSCode, MongoDB. 
+                Available @: <a href='https://dales-google-books-app.herokuapp.com' target='_blank' rel='noopener noreferrer'> Google Books </a> 
+                </p>
               </div>
           </Carousel.Caption>
         </Carousel.Item>
+
          {/* #2 */}
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
@@ -60,6 +66,7 @@ export default function Portfolio() {
               </div>
           </Carousel.Caption>
         </Carousel.Item> 
+        
          {/* #3 */}
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
@@ -78,6 +85,7 @@ export default function Portfolio() {
               </div>
           </Carousel.Caption>
         </Carousel.Item>
+        
          {/* #4 */}
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
@@ -96,6 +104,7 @@ export default function Portfolio() {
               </div>
           </Carousel.Caption>
         </Carousel.Item> 
+        
         {/* #5 */}
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
@@ -114,6 +123,7 @@ export default function Portfolio() {
               </div>
           </Carousel.Caption>
         </Carousel.Item> 
+        
         {/* #6 */}
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
@@ -132,6 +142,7 @@ export default function Portfolio() {
               </div>
           </Carousel.Caption>
         </Carousel.Item>
+         
          {/* #7 */}
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
@@ -150,6 +161,7 @@ export default function Portfolio() {
               </div>
           </Carousel.Caption>
         </Carousel.Item>
+         
          {/* #8 */}
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
@@ -168,6 +180,7 @@ export default function Portfolio() {
               </div>
           </Carousel.Caption>
         </Carousel.Item>
+         
          {/* #9 */}
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
@@ -186,6 +199,7 @@ export default function Portfolio() {
               </div>
           </Carousel.Caption>
         </Carousel.Item>
+        
          {/* #10 */}
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
