@@ -52,25 +52,35 @@ export default function Portfolio() {
                 <a href={ab} target='_blank' rel='noopener noreferrer'> Google Books GitHub </a> 
                 </p>
           </Carousel.Caption>
-          
+
         </Carousel.Item>
 
          {/* #2 */}
         <Carousel.Item interval={5000}>
-          <Carousel.Caption id="title">
-              <div>
+
+        <Carousel.Caption id="title">
               <h1 id="title" align="left">Work Day Scheduler</h1>
-              </div>
-          </Carousel.Caption>
-           <div> 
-           <img className="d-block w-40 mx-auto image1" src={workSched} 
-          href='https://drkittendorf.github.io/05-work-day-scheduler/' alt="Work Day Scheduler" target='_blank' rel='noopener noreferrer' />
-           </div>
+        </Carousel.Caption>
+
+            <a href='https://drkittendorf.github.io/05-work-day-scheduler/' target='_blank' rel='noopener noreferrer'> 
+                <img 
+                src={workSched}
+                className='d-block w-40 mx-auto image1' 
+                alt="Work Day Scheduler" 
+                />
+           </a>
+
+         
           <Carousel.Caption id="descdiv" >
-              <div>
-              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, JavaScript, VSCode, JQuery. 
+            
+              <p id="description" style={{width:"25vw"}}> 
               Available @: https://drkittendorf.github.io/05-work-day-scheduler</p>
-              </div>
+
+              <p id="description" style={{width:"25vw"}}> Technologies Used: HTML, CSS, JavaScript, VSCode, JQuery. 
+                Available @: <a href="https://drkittendorf.github.io/05-work-day-scheduler" target='_blank' rel='noopener noreferrer'> Google Books </a> 
+                <a href={ab} target='_blank' rel='noopener noreferrer'> Google Books GitHub </a> 
+                </p>
+        
           </Carousel.Caption>
         </Carousel.Item> 
         
