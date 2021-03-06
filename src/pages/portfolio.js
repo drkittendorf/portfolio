@@ -27,6 +27,28 @@ export default function Portfolio() {
 
      let aa = 'https://dales-google-books-app.herokuapp.com';
      let ab = 'https://github.com/drkittendorf/21_google_books';
+     let ba = 'https://dales-google-books-app.herokuapp.com';
+     let bb = 'https://github.com/drkittendorf/21_google_books';
+     let ca = 'https://dales-google-books-app.herokuapp.com';
+     let cb = 'https://github.com/drkittendorf/21_google_books';
+     let da = 'https://dales-google-books-app.herokuapp.com';
+     let db = 'https://github.com/drkittendorf/21_google_books';
+     let ea = 'https://dales-google-books-app.herokuapp.com';
+     let eb = 'https://github.com/drkittendorf/21_google_books';
+     let fa = 'https://dales-google-books-app.herokuapp.com';
+     let fb = 'https://github.com/drkittendorf/21_google_books';
+     let ga = 'https://dales-google-books-app.herokuapp.com';
+     let gb = 'https://github.com/drkittendorf/21_google_books';
+     let ha = 'https://dales-google-books-app.herokuapp.com';
+     let hb = 'https://github.com/drkittendorf/21_google_books';
+     let ia = 'https://dales-google-books-app.herokuapp.com';
+     let ib = 'https://github.com/drkittendorf/21_google_books';
+     let ja = 'https://dales-google-books-app.herokuapp.com';
+     let jb = 'https://github.com/drkittendorf/21_google_books';
+     let ka = 'https://dales-google-books-app.herokuapp.com';
+     let kb = 'https://github.com/drkittendorf/21_google_books';
+
+     let t1 = "link to HTML shield"
 
     return (
       <Carousel activeIndex={index} onSelect={handleSelect} className="hbody">
@@ -47,9 +69,10 @@ export default function Portfolio() {
            </a>
                      
           <Carousel.Caption >
-                <p id="description" style={{width:"25vw"}}> Technologies Used: HTML, CSS, JavaScript, VSCode, MongoDB. 
-                Available @: <a href={aa} target='_blank' rel='noopener noreferrer'> Google Books </a> 
+                <p id="description" style={{width:"25vw"}}> Technologies Used: <i class="fab fa-react"></i> <i class="fab fa-html5"></i>HTML, CSS, JavaScript, VSCode, MongoDB. 
+                Available @: <a href={aa} target='_blank' rel='noopener noreferrer'> Google Books </a>
                 <a href={ab} target='_blank' rel='noopener noreferrer'> Google Books GitHub </a> 
+                
                 </p>
           </Carousel.Caption>
 
@@ -77,8 +100,8 @@ export default function Portfolio() {
               Available @: https://drkittendorf.github.io/05-work-day-scheduler</p>
 
               <p id="description" style={{width:"25vw"}}> Technologies Used: HTML, CSS, JavaScript, VSCode, JQuery. 
-                Available @: <a href="https://drkittendorf.github.io/05-work-day-scheduler" target='_blank' rel='noopener noreferrer'> Google Books </a> 
-                <a href={ab} target='_blank' rel='noopener noreferrer'> Google Books GitHub </a> 
+                Available @: <a href="https://drkittendorf.github.io/05-work-day-scheduler" target='_blank' rel='noopener noreferrer'> Work Day Scheduler </a> 
+                <a href={ab} target='_blank' rel='noopener noreferrer'> Work Day Scheduler Git Hub </a> 
                 </p>
         
           </Carousel.Caption>
