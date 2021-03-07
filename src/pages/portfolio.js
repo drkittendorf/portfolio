@@ -26,8 +26,8 @@ export default function Portfolio() {
 
      let aa = 'https://dales-google-books-app.herokuapp.com';
      let ab = 'https://github.com/drkittendorf/21_google_books';
-     let ba = 'https://dales-google-books-app.herokuapp.com';
-     let bb = 'https://github.com/drkittendorf/21_google_books';
+     let ba = 'https://drkittendorf.github.io/05-work-day-scheduler/'
+     let bb = 'https://github.com/drkittendorf/05-work-day-scheduler';
      let ca = 'https://dales-google-books-app.herokuapp.com';
      let cb = 'https://github.com/drkittendorf/21_google_books';
      let da = 'https://dales-google-books-app.herokuapp.com';
@@ -88,7 +88,7 @@ export default function Portfolio() {
               <h1 id="title" align="left">Work Day Scheduler</h1>
         </Carousel.Caption>
 
-            <a href='https://drkittendorf.github.io/05-work-day-scheduler/' target='_blank' rel='noopener noreferrer'> 
+            <a href={ba} target='_blank' rel='noopener noreferrer'> 
                 <img 
                 src={workSched}
                 className='d-block w-40 mx-auto image1' 
@@ -100,7 +100,7 @@ export default function Portfolio() {
           <Carousel.Caption id="descdiv" >
             
               <p id="description" style={{width:"25vw"}}> 
-              Available @: https://drkittendorf.github.io/05-work-day-scheduler</p>
+              Available @: {ba}</p>
 
               <p id="description" style={{width:"25vw"}}> Technologies Used: HTML, CSS, JavaScript, VSCode, JQuery. 
                 Available @: <a href="https://drkittendorf.github.io/05-work-day-scheduler" target='_blank' rel='noopener noreferrer'> Work Day Scheduler </a> 
