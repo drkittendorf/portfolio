@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: rgb(25, 79, 179);
+    background:black;
     font-size: 2rem;
     font-family: 'Archivo', sans-serif;
     color: hsl(32, 98%, 64%);
@@ -79,6 +79,19 @@
  div.carousel-caption {
      z-index: 1;
  }
+
+ .footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;
+    text-align: center;
+    background: black;
+    font-size: 1rem;
+    font-family: 'Archivo', sans-serif;
+    color: hsl(32, 98%, 64%); 
+   }
 
  @media only screen {
    

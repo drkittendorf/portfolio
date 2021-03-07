@@ -1,13 +1,14 @@
 :root {
   background: black;
-  
-  h1 { 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
+
+h1 {
   font-size: 2rem;
-   }
+}
   
-  h2 {
+h2 {
   font-size: 1.5rem;
-   }
 }
 
 .head {
@@ -39,7 +40,7 @@
 
 
 
-    .body {
+.body {
     position:relative;
     width: 100vw;
     display: flex;
@@ -53,7 +54,7 @@
     color: hsl(32, 98%, 64%);
    }
    
-   .bodybody {
+.bodybody {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -91,6 +92,7 @@
 
    .footer {
     width: 100vw;
+    padding: 10px,15px, 15px, 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,3 +131,4 @@
     min-height: auto;
     margin-bottom: 175%;
 }
+

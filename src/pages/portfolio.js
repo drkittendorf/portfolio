@@ -20,7 +20,6 @@ import '../assets/css/portfolio.css'
 
 export default function Portfolio() {
     const [index, setIndex] = useState(0);
-  
     const handleSelect = (selectedIndex, e) => {
       setIndex(selectedIndex);
     }; 
@@ -48,7 +47,11 @@ export default function Portfolio() {
      let ka = 'https://dales-google-books-app.herokuapp.com';
      let kb = 'https://github.com/drkittendorf/21_google_books';
 
-     let t1 = "link to HTML shield"
+     let aReact = <i class="fab fa-react"></i>
+     let aHTML = <i class="fab fa-html5"></i>
+     let aCSS = <i class="fab fa-css3-alt"></i>
+     let aJS = <i class="fab fa-js"></i>
+     let aNodeJS = <i class="fab fa-node-js"></i>
 
     return (
       <Carousel activeIndex={index} onSelect={handleSelect} className="hbody">
@@ -69,7 +72,7 @@ export default function Portfolio() {
            </a>
                      
           <Carousel.Caption >
-                <p id="description" style={{width:"25vw"}}> Technologies Used: <i class="fab fa-react"></i> <i class="fab fa-html5"></i>HTML, CSS, JavaScript, VSCode, MongoDB. 
+                <p id="description" style={{width:"25vw"}}> Technologies Used: {aReact} {aHTML} {aCSS} {aJS} {aNodeJS} VSCode, MongoDB. 
                 Available @: <a href={aa} target='_blank' rel='noopener noreferrer'> Google Books </a>
                 <a href={ab} target='_blank' rel='noopener noreferrer'> Google Books GitHub </a> 
                 
