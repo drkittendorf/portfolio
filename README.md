@@ -55,6 +55,13 @@ Link to **GitHub Repo** used for application development - [Dale's Portfolio App
 
 ---
 
+### CORE PROJECT TECHNOLOGIES
+
+Here is a list of all the core technologies used to develop this application.
+
+- `React.js - A JavaScript library for building user interfaces`
+- `Node.js - An asynchronous event-driven JavaScript runtime`
+
 ### CORE NODE DEPENDENCIES
 
 The dependencies listed below are all the core NPM packages used throughout the project.
@@ -71,25 +78,35 @@ The dependencies listed below are all the core NPM packages used throughout the 
 
 For `future` development, I would like to incorporate the following `enhancements` into my portfolio:
 
+- Add software Icons
+- Add github and project links to all projects
+- Update Fonts
 - Enhance the portfolio platform by adding more content and continuing to revise projects
 - Develop better responsiveness for various screen sizes
 - Tighten up sizes and review fonts
 - Adjust Footer spacing
 - Cleaner styling
+- Add Screenshots and videos to ReadMe
 
 ---
 
 
 ## LICENSING
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
-"The code in this project is licensed under MIT license."
+The code in this project is licensed under MIT license.
 
 ---
 
 ## SCREENSHOTS AND VIDEO
-  ![screenshot1] 
 
-## VIDEO
+- ### SCREENSHOT(S)  
+        (TBD)
+
+<br>
+
+- ### VIDEO
+        (TBD)
 <br>
 
 ---
