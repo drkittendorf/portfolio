@@ -25,7 +25,7 @@ Dale Kittendorf
 
 ## CONCEPT
 
-This website **showcases** a responsive react portfolio, with information **about Dale**, including his **work** and **contact info**.
+This react website **showcases** a responsive portfolio, with information **about Dale**, including his **work** and **contact info**.
 
 <br>
 
