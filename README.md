@@ -1,19 +1,19 @@
-# DALE'S REACT PROTFOLIO
+# DALE'S REACT PORTFOLIO
 
 ### TABLE OF CONTENTS
 
 - [CONTRIBUTOR(S)](#CONTRIBUTOR(S))
 - [DESCRIPTION](#DESCRIPTION)
 - [REFERENCE LINKS](#REFERENCE-LINKS)
-  - [Dale's Portfolio Application Live Link](https://drkittendorf.github.io/portfolio/)
-  - [Dale's Portfolio Application GitHub Repo](https://github.com/drkittendorf/portfolio)
+  - [Dale's React Portfolio Application :: Live Link](https://drkittendorf.github.io/portfolio/)
+  - [Dale's React Portfolio Application :: GitHub Repo](https://github.com/drkittendorf/portfolio)
 - [CONCEPT](#CONCEPT)
 - [LANGUAGES AND TOOLS](#LANGUAGES-AND-TOOLS)
-- [SCREENSHOTS](#SCREENSHOTS)
-- [Core Project Technologies](#core-project-technologies)
-- [Core Node Dependencies](#core-node-depencencies)
+- [CORE PROJECT TECHNOLOGIES](#CORE-PROJECT-TECHNOLOGIES)
+- [CORE NODE DEPENDENCIES](#CORE-NODE-DEPENDENCIES)
 - [FUTURE DEVELOPMENT](#FUTURE-DEVELOPMENT)
 - [LICENSING](#LICENSING)
+- [SCREENSHOTS](#SCREENSHOTS-AND-VIDEO)
 
 ---
 ## CONTRIBUTOR(S)
@@ -55,15 +55,6 @@ Link to **GitHub Repo** used for application development - [Dale's Portfolio App
 
 ---
 
-
-## SCREENSHOTS
-  ![screenshot1] 
-
-## VIDEO
-<br>
-
----
-
 ### CORE NODE DEPENDENCIES
 
 The dependencies listed below are all the core NPM packages used throughout the project.
@@ -71,6 +62,8 @@ The dependencies listed below are all the core NPM packages used throughout the 
 - `react-dom` - Allows serves as the entry point to the DOM and server renderers for React.
 - `react-bootstrap` - Bootstrap 4 components built with React.
 - `react-bootstrap-carousel`
+
+<br>
 
 ---
 
@@ -90,5 +83,13 @@ For `future` development, I would like to incorporate the following `enhancement
 ## LICENSING
 
 "The code in this project is licensed under MIT license."
+
+---
+
+## SCREENSHOTS AND VIDEO
+  ![screenshot1] 
+
+## VIDEO
+<br>
 
 ---
