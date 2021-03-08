@@ -1,32 +1,47 @@
-# Dale's React Portfolio
+# DALE'S REACT PROTFOLIO
 
-### Table of Contents
+### TABLE OF CONTENTS
 
-- [Description](#description)
-- [Reference Links](#reference-links)
+- [CONTRIBUTOR(S)](#CONTRIBUTOR(S))
+- [DESCRIPTION](#DESCRIPTION)
+- [REFERENCE LINKS](#REFERENCE-LINKS)
   - [Dale's Portfolio Application Live Link](https://drkittendorf.github.io/portfolio/)
   - [Dale's Portfolio Application GitHub Repo](https://github.com/drkittendorf/portfolio)
-- [Concept](#concept)
-- [Installation Instructions](#installation-instructions)
-  - [Core Project Technologies](#core-project-technologies)
-  - [Core Node Dependencies](#core-node-depencencies)
-- [Future Development](#future-development)
-- [Licensing](#licensing)
+- [CONCEPT](#CONCEPT)
+- [LANGUAGES AND TOOLS](#LANGUAGES-AND-TOOLS)
+- [SCREENSHOTS](#SCREENSHOTS)
+- [Core Project Technologies](#core-project-technologies)
+- [Core Node Dependencies](#core-node-depencencies)
+- [FUTURE DEVELOPMENT](#FUTURE-DEVELOPMENT)
+- [LICENSING](#LICENSING)
 
 ---
 ## CONTRIBUTOR(S)
 Dale Kittendorf
 
+<br>
+
 ---
 
-## Concept
+## CONCEPT
 
 This website **showcases** a responsive react portfolio, with information **about Dale**, including his **work** and **contact info**.
 
+<br>
+
 ---
 
-### Languages and Tools:
+## REFERENCE LINKS
 
+Link to **Dale's Portfolio** deployed on GitHub Pages - [Dale's Portfolio Application Live Link](https://drkittendorf.github.io/portfolio/)
+
+Link to **GitHub Repo** used for application development - [Dale's Portfolio Application GitHub Repo](https://github.com/drkittendorf/portfolio)
+
+<br>
+
+---
+
+## LANGUAGES AND TOOLS:
 <img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
@@ -45,10 +60,13 @@ This website **showcases** a responsive react portfolio, with information **abou
   ![screenshot1] 
 
 ## VIDEO
+<br>
 
-### Core Node Dependencies
+---
 
-The dependencies listed below are all the NPM packages used throughout the website.
+### CORE NODE DEPENDENCIES
+
+The dependencies listed below are all the core NPM packages used throughout the project.
 
 - `react-dom` - Allows serves as the entry point to the DOM and server renderers for React.
 - `react-bootstrap` - Bootstrap 4 components built with React.
@@ -56,7 +74,7 @@ The dependencies listed below are all the NPM packages used throughout the websi
 
 ---
 
-## FOR FURTHER DEVELOPMENT
+## FUTURE DEVELOPMENT
 
 For `future` development, I would like to incorporate the following `enhancements` into my portfolio:
 
@@ -69,7 +87,7 @@ For `future` development, I would like to incorporate the following `enhancement
 ---
 
 
-## Licensing
+## LICENSING
 
 "The code in this project is licensed under MIT license."
 
