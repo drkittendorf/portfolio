@@ -1,3 +1,5 @@
+
+
 :root {
   background: black;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
@@ -10,6 +12,36 @@ h1 {
 h2 {
   font-size: 1.5rem;
 }
+
+.sideByPair {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.aboutImage {
+    position: relative;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    /* align-items: left; */
+    background: black;
+    border-radius: 15rem;
+   
+}
+
+.aboutBody {
+    position: relative;
+    width: 40vw;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: right;
+    align-self: flex-end;
+    font-size: .75rem;
+    margin-bottom: 5%;
+   }
 
 .head {
     position:relative;
@@ -90,31 +122,8 @@ h2 {
 
    }
 
-   .footer {
-    width: 100vw;
-    padding: 10px,15px, 15px, 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: flex-end;
-    text-align: center;
-    background: black;
-    font-size: 1rem;
-    font-family: 'Archivo', sans-serif;
-    color: hsl(32, 98%, 64%); 
-   }
+   
 
-   .aboutBody {
-    /* position: absolute; */
-    width: 40vw;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: right;
-    align-self: flex-start;
-    font-size: .75rem;
-    margin-bottom: 175%;
-   }
 
    .imageD {
     /* position: absolute; */

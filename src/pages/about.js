@@ -7,8 +7,8 @@ function about() {
   return (
     <div className="bodybody">
      
-         <div>
-                <div> 
+         <div className='sideByPair'>
+                <div className='aboutImage'> 
                     <img src={dale} alt="Dale Kittendorf"/> 
                 </div> 
                 <div className="aboutBody">

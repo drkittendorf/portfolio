@@ -1,0 +1,17 @@
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    font-size: 1rem;
+    font-family: 'Archivo', sans-serif;
+    color: hsl(32, 98%, 64%);
+    padding: 20px, 15px, 15px, 15px;
+    /* margin: 2rem; */
+    border: 2rem black;
+    justify-content: center;
+    align-self: flex-end;
+    text-align: center;
+    background: black;
+     
+   }
