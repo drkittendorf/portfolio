@@ -44,31 +44,31 @@
  }
 
  #title {
-  /* display: flex;
-  flex-direction: column; */
-  /* justify-content: flex-start; */
-  /* text-align: left; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
   margin-bottom: 10%;
+  margin: -80% -10% 5% 5%;
   width: 25vw;
  }
 
- /* #desc {
-    width: 25vw;
-    margin-right:0px;
-   } */
+ .tech {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
 
  #description {  
     display: flex;
-    flex-direction: column ;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-evenly;
     text-align: center;
-    /* justify-content: center; */
-    align-items: right;
+    align-items: left;
     margin-bottom: 100px;
-    margin: 200% 300% 0% 75%;
+    margin: 200% 300% 0% 65%;
     word-wrap: break-word;
     font-size: 1.5rem;
-    /* width: 25vw; */
  }
 
  /* #descdiv {

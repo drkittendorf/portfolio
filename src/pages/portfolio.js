@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 // import {Link} from 'react-router-dom'
-// IMAGES OF PROJECTS
+//* IMAGES OF PROJECTS
 import burgerBender from '../assets/images/BurgerBender.png';
 import codeQuiz from '../assets/images/CodeQuiz.png';
 import noteTaker from '../assets/images/NoteTaker.png';
@@ -13,9 +13,59 @@ import passGen from '../assets/images/PasswordGenerator.png';
 import googBook from '../assets/images/GoogleBooks.png';
 import codeRefactor from '../assets/images/CodeRefactor.png';
 import empDir from '../assets/images/EmployeeDirectory.png';
-// CSS
+//* CSS
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import '../assets/css/portfolio.css'
+//*icon images
+import reactIcon from '../assets/images/icons/react.png';
+import cssIcon from '../assets/images/icons/css.png';
+import vscodeIcon from '../assets/images/icons/visual-studio-code.png';
+import githubIcon from '../assets/images/icons/github.png';
+import htmlIcon from '../assets/images/icons/html.png';
+import jsIcon from '../assets/images/icons/javascript.png';
+import nodejsIcon from '../assets/images/icons/nodejs.png';
+import mongoIcon from '../assets/images/icons/mongodb.png';
+
+const reacticon = 
+     <img align="left" 
+     alt="React" width="10%" height="10%" 
+     src={reactIcon} 
+     />
+const css  = 
+     <img align="left" 
+     alt="HTML" width="10%" height="10%" 
+     src={cssIcon} 
+     />
+const vscode = 
+     <img align="left" 
+     alt="VS Code" width="10%" height="10%" 
+     src={vscodeIcon} 
+     />
+const github = 
+     <img align="left" 
+     alt="GitHub" width="10%" height="10%" 
+     src={githubIcon} 
+     />
+const html = 
+     <img align="left" 
+     alt="HTML" width="10%" height="10%" 
+     src={htmlIcon} 
+     />
+const javascript = 
+     <img align="left" 
+     alt="JavaScript" width="10%" height="10%" 
+     src={jsIcon} 
+     />
+const nodejs = 
+     <img align="left" 
+     alt="Node JS" width="10%" height="10%" 
+     src={nodejsIcon} 
+     />
+ const mongodb = 
+     <img align="left" 
+     alt="Mongo DB" width="15%" height='auto'
+     src={mongoIcon} 
+     />
 
 
 export default function Portfolio() {
@@ -28,30 +78,10 @@ export default function Portfolio() {
      let ab = 'https://github.com/drkittendorf/21_google_books';
      let ba = 'https://drkittendorf.github.io/05-work-day-scheduler/'
      let bb = 'https://github.com/drkittendorf/05-work-day-scheduler';
-     let ca = 'https://dales-google-books-app.herokuapp.com';
-     let cb = 'https://github.com/drkittendorf/21_google_books';
-     let da = 'https://dales-google-books-app.herokuapp.com';
-     let db = 'https://github.com/drkittendorf/21_google_books';
-     let ea = 'https://dales-google-books-app.herokuapp.com';
-     let eb = 'https://github.com/drkittendorf/21_google_books';
-     let fa = 'https://dales-google-books-app.herokuapp.com';
-     let fb = 'https://github.com/drkittendorf/21_google_books';
-     let ga = 'https://dales-google-books-app.herokuapp.com';
-     let gb = 'https://github.com/drkittendorf/21_google_books';
-     let ha = 'https://dales-google-books-app.herokuapp.com';
-     let hb = 'https://github.com/drkittendorf/21_google_books';
-     let ia = 'https://dales-google-books-app.herokuapp.com';
-     let ib = 'https://github.com/drkittendorf/21_google_books';
-     let ja = 'https://dales-google-books-app.herokuapp.com';
-     let jb = 'https://github.com/drkittendorf/21_google_books';
-     let ka = 'https://dales-google-books-app.herokuapp.com';
-     let kb = 'https://github.com/drkittendorf/21_google_books';
+   
 
-     let aReact = <i class="fab fa-react"></i>
-     let aHTML = <i class="fab fa-html5"></i>
-     let aCSS = <i class="fab fa-css3-alt"></i>
-     let aJS = <i class="fab fa-js"></i>
-     let aNodeJS = <i class="fab fa-node-js"></i>
+     
+     
 
     return (
       <Carousel activeIndex={index} onSelect={handleSelect} className="hbody">
@@ -72,9 +102,18 @@ export default function Portfolio() {
            </a>
                      
           <Carousel.Caption >
-                <p id="description" style={{width:"25vw"}}> Technologies Used: {aReact} {aHTML} {aCSS} {aJS} {aNodeJS} VSCode, MongoDB. 
+                <p id="description" style={{width:"25vw"}}>
                 Available @: <a href={aa} target='_blank' rel='noopener noreferrer'> Google Books </a>
                 <a href={ab} target='_blank' rel='noopener noreferrer'> Google Books GitHub </a> 
+                
+                Technologies Used:
+                <div className='tech'>
+                {vscode} {html} {css} {reacticon} 
+                </div>
+                <div className='tech'>
+                {javascript} {nodejs} {mongodb}
+                </div>
+                
                 
                 </p>
           </Carousel.Caption>
