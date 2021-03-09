@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fbcc0ebc.chunk.css",
-    "main.js": "/portfolio/static/js/main.20f08953.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.20f08953.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.e1435d63.chunk.css",
+    "main.js": "/portfolio/static/js/main.f1ec1fc3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f1ec1fc3.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/portfolio/static/css/2.20aa2d7b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.4c87e37d.chunk.js.map": "/portfolio/static/js/2.4c87e37d.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/portfolio/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.fbcc0ebc.chunk.css.map": "/portfolio/static/css/main.fbcc0ebc.chunk.css.map",
+    "static/css/main.e1435d63.chunk.css.map": "/portfolio/static/css/main.e1435d63.chunk.css.map",
     "static/js/2.4c87e37d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4c87e37d.chunk.js.LICENSE.txt",
     "static/media/BurgerBender.cab1b51a.png": "/portfolio/static/media/BurgerBender.cab1b51a.png",
     "static/media/CodeQuiz.148b72e0.png": "/portfolio/static/media/CodeQuiz.148b72e0.png",
@@ -23,13 +23,20 @@
     "static/media/PasswordGenerator.8ce7b6eb.png": "/portfolio/static/media/PasswordGenerator.8ce7b6eb.png",
     "static/media/SpacePortal.badd4d81.png": "/portfolio/static/media/SpacePortal.badd4d81.png",
     "static/media/WorkDayScheduler.b9ccb25f.png": "/portfolio/static/media/WorkDayScheduler.b9ccb25f.png",
-    "static/media/aboutDale.dd03d54d.png": "/portfolio/static/media/aboutDale.dd03d54d.png"
+    "static/media/aboutDale.dd03d54d.png": "/portfolio/static/media/aboutDale.dd03d54d.png",
+    "static/media/css.67e32524.png": "/portfolio/static/media/css.67e32524.png",
+    "static/media/html.40de90bf.png": "/portfolio/static/media/html.40de90bf.png",
+    "static/media/javascript.e90bb68d.png": "/portfolio/static/media/javascript.e90bb68d.png",
+    "static/media/mongodb.057de5cd.png": "/portfolio/static/media/mongodb.057de5cd.png",
+    "static/media/nodejs.15e2e80e.png": "/portfolio/static/media/nodejs.15e2e80e.png",
+    "static/media/react.b9a14f34.png": "/portfolio/static/media/react.b9a14f34.png",
+    "static/media/visual-studio-code.aa54f108.png": "/portfolio/static/media/visual-studio-code.aa54f108.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8fed2963.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.4c87e37d.chunk.js",
-    "static/css/main.fbcc0ebc.chunk.css",
-    "static/js/main.20f08953.chunk.js"
+    "static/css/main.e1435d63.chunk.css",
+    "static/js/main.f1ec1fc3.chunk.js"
   ]
 }
