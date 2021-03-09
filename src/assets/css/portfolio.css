@@ -1,55 +1,58 @@
-/*!HORIZONTAL PAGE */
- .hbody {
-    position:relative;
-    width: 100vw;
+/*!Used on Portfolio */
+.hbody {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    position:relative;
+    width: 100vw;
+    height: 75vh;
     align-items: center;
     text-align: center;
     background:black;
     font-size: 2rem;
     font-family: 'Archivo', sans-serif;
-    color: hsl(32, 98%, 64%);
-   }
-
- .image1 {
+}
+/*! Portfolio navigation dashes */
+.carousel-indicators li{
+    background-color: whitesmoke;
+    height: 1vw;
+    width: 20vw;
+    border-radius: .5rem;
+    /* padding-top: .25%; */
+    /* padding-bottom: 1%; */
+    margin-bottom: 30%;
+    margin: .25px;
+    z-index: 10;
+}
+/* Used on images of sites in portfolio */
+.image1 {
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 20%;
-    height: auto;
+    height: 60vh;
+    width: auto;
     border-radius: 1.5rem;
     padding: 5px;
     min-width: 100px;
     min-height: auto;
     z-index: 1000;
- }
+}
+.image1:hover {
+    transform: scale(1.00);
+    border: 0.2rem solid white;
+}
 
- .image1:hover {
-    transform: scale(0.9);
-    border: 0.25rem solid white;
-  }
-
- .carousel-indicators li{
-   background-color: whitesmoke;
-   height: 1vh;
-   width: 20vw;
-   border-radius: .75rem;
-   margin-bottom: -30%;
-
- }
-
+ 
+/* 3 elements of portfolio item display - title, image and technologies */
  #title {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   text-align: left;
   margin-bottom: 10%;
-  margin: -80% -10% 5% 5%;
+  margin: -60% -10% 5% 5%;
   width: 25vw;
  }
 
@@ -66,15 +69,11 @@
     text-align: center;
     align-items: left;
     margin-bottom: 100px;
-    margin: 200% 300% 0% 65%;
+    margin: 200% 300% 10% 65%;
     word-wrap: break-word;
     font-size: 1.5rem;
  }
 
- /* #descdiv {
-    margin-top: -400px;
-    margin-right: -100px;
- } */
 
  div.carousel-caption {
      z-index: 1;

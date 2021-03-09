@@ -1,5 +1,4 @@
 
-
 :root {
   background: black;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
@@ -12,12 +11,11 @@ h1 {
 h2 {
   font-size: 1.5rem;
 }
-
+/* Used on about.js */
 .sideByPair {
     display: flex;
     flex-direction: row;
 }
-
 
 .aboutImage {
     position: relative;
@@ -30,7 +28,6 @@ h2 {
     border-radius: 15rem;
    
 }
-
 .aboutBody {
     position: relative;
     width: 40vw;
@@ -43,20 +40,7 @@ h2 {
     margin-bottom: 5%;
    }
 
-.head {
-    position:relative;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: black;
-    font-size: 2rem;
-    font-family: 'Archivo', sans-serif;
-    color: hsl(32, 98%, 64%); 
-}
-
+/* Used on contact */
 .contact {
     width: 100vw;
     display: flex;
@@ -85,7 +69,8 @@ h2 {
     font-family: 'Archivo', sans-serif;
     color: hsl(32, 98%, 64%);
    }
-   
+
+   /* about uses .bodybody*/
 .bodybody {
     display: flex;
     flex-direction: row;
@@ -97,33 +82,6 @@ h2 {
     font-family: 'Archivo', sans-serif;
     color: white;
    }
-
-   .navbar {
-    width: 100vw;
-    background: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    /* text-align: center; */
-    font-size: 1.5rem;
-    font-family: 'Archivo', sans-serif;
-    color: white;
-   }
-
-   .divbar {
-    width: 80vw;
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    align-items: center;
-    justify-content: space-evenly;
-    align-items: stretch;
-
-   }
-
-   
-
 
    .imageD {
     /* position: absolute; */

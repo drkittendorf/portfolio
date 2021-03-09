@@ -86,7 +86,9 @@ For `future` development, I would like to incorporate the following `enhancement
 - Tighten up sizes and review fonts
 - Adjust Footer spacing
 - Cleaner styling
+- Cleanup CSS
 - Add Screenshots and videos to ReadMe
+- Add Modal for resume display prior to opening in new window
 
 ---
 

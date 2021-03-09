@@ -1,5 +1,6 @@
+// HEADER INDEX
 import React from "react";
-import "../../assets/css/style.css"
+import "./header.css"
 
 function Header() {
 return (

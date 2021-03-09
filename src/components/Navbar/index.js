@@ -1,7 +1,8 @@
-import "../../assets/css/style.css"
+//* NAVBAR INDEX
 import React from 'react';
 import {Link} from "react-router-dom"
 import resume from '../../assets/images/DaleRKittendorf2021Resume.pdf';
+import './mynavbar.css'
 
 function Navbar() {
     return (
@@ -17,9 +18,8 @@ function Navbar() {
             
             <a href="https://www.linkedin.com/in/dalerkittendorf" target="_blank" className='' 
             rel='noopener noreferrer'><i className="fab fa-linkedin fa-3x icon"></i></a>
-        </div>
-        
-      </nav>
+           </div>
+        </nav>
     );
   }
 

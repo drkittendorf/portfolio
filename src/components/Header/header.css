@@ -1,0 +1,15 @@
+.head {
+    position:relative;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: black;
+    font-size: 2rem;
+    font-family: 'Archivo', sans-serif;
+    color: hsl(32, 98%, 64%);
+}
+

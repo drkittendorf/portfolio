@@ -16,7 +16,7 @@ import empDir from '../assets/images/EmployeeDirectory.png';
 //* CSS
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import '../assets/css/portfolio.css'
-//*icon images
+//* icon images
 import reactIcon from '../assets/images/icons/react.png';
 import cssIcon from '../assets/images/icons/css.png';
 import vscodeIcon from '../assets/images/icons/visual-studio-code.png';
@@ -121,7 +121,7 @@ export default function Portfolio() {
         </Carousel.Item>
 
          {/* #2 */}
-        <Carousel.Item interval={5000}>
+        <Carousel.Item interval={1000}>
 
         <Carousel.Caption id="title">
               <h1 id="title" align="left">Work Day Scheduler</h1>
@@ -150,7 +150,7 @@ export default function Portfolio() {
         </Carousel.Item> 
         
          {/* #3 */}
-        <Carousel.Item interval={5000}>
+        <Carousel.Item interval={1000}>
           <Carousel.Caption id="title">
               <div>
               <h1 id="title" align="left">Employee Directory</h1>
