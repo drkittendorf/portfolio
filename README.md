@@ -7,7 +7,6 @@
 - [REFERENCE LINKS](#REFERENCE-LINKS)
   - [Dale's React Portfolio Application :: Live Link](https://drkittendorf.github.io/portfolio/)
   - [Dale's React Portfolio Application :: GitHub Repo](https://github.com/drkittendorf/portfolio)
-- [CONCEPT](#CONCEPT)
 - [LANGUAGES AND TOOLS](#LANGUAGES-AND-TOOLS)
 - [CORE PROJECT TECHNOLOGIES](#CORE-PROJECT-TECHNOLOGIES)
 - [CORE NODE DEPENDENCIES](#CORE-NODE-DEPENDENCIES)
@@ -23,7 +22,7 @@ Dale Kittendorf
 
 ---
 
-## CONCEPT
+## DESCRIPTION
 
 This react website **showcases** a responsive portfolio, with information **about Dale**, including his **work** and **contact info**.
 
@@ -33,9 +32,9 @@ This react website **showcases** a responsive portfolio, with information **abou
 
 ## REFERENCE LINKS
 
-Link to **Dale's Portfolio** deployed on GitHub Pages - [Dale's Portfolio Application Live Link](https://drkittendorf.github.io/portfolio/)
+Link to **Dale's Portfolio** deployed on GitHub Pages - [Application Live Link](https://drkittendorf.github.io/portfolio/)
 
-Link to **GitHub Repo** used for application development - [Dale's Portfolio Application GitHub Repo](https://github.com/drkittendorf/portfolio)
+Link to **GitHub Repo** used for application development - [Application GitHub Repo](https://github.com/drkittendorf/portfolio)
 
 <br>
 

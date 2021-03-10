@@ -111,7 +111,7 @@ export default function Portfolio() {
                 {vscode} {html} {css} {reacticon} 
                 </div>
                 <div className='tech'>
-                {javascript} {nodejs} {mongodb}
+                {javascript} {nodejs} {mongodb} {github}
                 </div>
                 
                 
@@ -138,15 +138,21 @@ export default function Portfolio() {
          
           <Carousel.Caption id="descdiv" >
             
-              <p id="description" style={{width:"25vw"}}> 
-              Available @: {ba}</p>
-
-              <p id="description" style={{width:"25vw"}}> Technologies Used: HTML, CSS, JavaScript, VSCode, JQuery. 
-                Available @: <a href="https://drkittendorf.github.io/05-work-day-scheduler" target='_blank' rel='noopener noreferrer'> Work Day Scheduler </a> 
-                <a href={ab} target='_blank' rel='noopener noreferrer'> Work Day Scheduler Git Hub </a> 
+                <p id="description" style={{width:"25vw"}}>
+                Available @: <a href={ba} target='_blank' rel='noopener noreferrer'> Work Day Scheduler Live App </a>
+                <a href={bb} target='_blank' rel='noopener noreferrer'> Work Day Scheduler Git Hub  </a> 
+                
+                Technologies Used:
+                <div className='tech'>
+                {vscode}{html}{css}
+                </div>
+                <div className='tech'>
+                {javascript}{github}
+                </div>             
+                
                 </p>
-        
           </Carousel.Caption>
+
         </Carousel.Item> 
         
          {/* #3 */}
