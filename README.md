@@ -2,7 +2,7 @@
 
 ### TABLE OF CONTENTS
 
-- [CONTRIBUTOR(s)](#CONTRIBUTOR(s))
+- [CONTRIBUTORS](#CONTRIBUTORS)
 - [DESCRIPTION](#DESCRIPTION)
 - [REFERENCE LINKS](#REFERENCE-LINKS)
   - [Dale's React Portfolio Application :: Live Link](https://drkittendorf.github.io/portfolio/)
@@ -15,7 +15,7 @@
 - [SCREENSHOTS](#SCREENSHOTS-AND-VIDEO)
 
 ---
-## CONTRIBUTOR(s)
+## CONTRIBUTORS
 Dale Kittendorf
 
 <br>
