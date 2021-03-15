@@ -75,7 +75,7 @@ export default function Portfolio() {
     }; 
 
      let aa = 'https://dales-google-books-app.herokuapp.com';
-     let ab = 'https://github.com/drkittendorf/21_google_books';
+     let ab = 'https://github.com/drkittendorf/google_books';
      let ba = 'https://drkittendorf.github.io/05-work-day-scheduler/'
      let bb = 'https://github.com/drkittendorf/05-work-day-scheduler';
    
