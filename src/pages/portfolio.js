@@ -100,7 +100,7 @@ export default function Portfolio() {
       <Carousel activeIndex={index} onSelect={handleSelect} className="hbody">
        
         {/* Slide #1 */}
-        <Carousel.Item interval={200000}>
+        <Carousel.Item interval={5000}>
                    
           <Carousel.Caption id="title">
               <h1 id="title" align="left">Google Books</h1>
@@ -134,7 +134,7 @@ export default function Portfolio() {
         </Carousel.Item>
 
          {/* #2 */}
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={5000}>
 
         <Carousel.Caption id="title">
               <h1 id="title" align="left">Work Day Scheduler</h1>
@@ -169,7 +169,7 @@ export default function Portfolio() {
         </Carousel.Item> 
         
          {/* #3 */}
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
               <div>
               <h1 id="title" align="left">Employee Directory</h1>
@@ -238,61 +238,109 @@ export default function Portfolio() {
 
         {/* #5 */}
         <Carousel.Item interval={5000}>
-          <Carousel.Caption id="title">
-              <div>
-              <h1 id="title" align="left">Space Portal</h1>
-              </div>
-          </Carousel.Caption>
-           <div> 
-           <img className="d-block w-40 mx-auto image1" src={spacPort} 
-          href='https://drkittendorf.github.io/totallyNotTheDarkSide/' alt="Space Portal" target='_blank' rel='noopener noreferrer' />
-           </div>
-          <Carousel.Caption id="descdiv" >
-              <div>
-              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, JavaScript, VSCode, Server Side APIs.
-              Available @: https://drkittendorf.github.io/totallyNotTheDarkSide  </p>
-              </div>
-          </Carousel.Caption>
-        </Carousel.Item> 
-        
-        {/* #6 */}
-        <Carousel.Item interval={5000}>
-          <Carousel.Caption id="title">
-              <div>
-              <h1 id="title" align="left">Burger App</h1>
-              </div>
-          </Carousel.Caption>
-           <div> 
-           <img className="d-block w-40 mx-auto image1" src={burgerBender} 
-          href='https://safe-dusk-58943.herokuapp.com/' alt="Burger App" target='_blank' rel='noopener noreferrer' />
-           </div>
-          <Carousel.Caption id="descdiv" >
-              <div>
-              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, JavaScript, 
-              Available @: https://safe-dusk-58943.herokuapp.com </p>
-              </div>
-          </Carousel.Caption>
-        </Carousel.Item>
-         
-         {/* #7 */}
-        <Carousel.Item interval={5000}>
+
           <Carousel.Caption id="title">
               <div>
               <h1 id="title" align="left">Code Quiz</h1>
               </div>
           </Carousel.Caption>
-           <div> 
-           <img className="d-block w-40 mx-auto image1" src={codeQuiz} 
-          href='https://safe-dusk-58943.herokuapp.com/' alt="Code Quiz" target='_blank' rel='noopener noreferrer' />
-           </div>
-          <Carousel.Caption id="descdiv" >
+
+            <a href={ea} target='_blank' rel='noopener noreferrer'> 
+                <img 
+                src={codeQuiz} 
+                className='d-block w-40 mx-auto image1' 
+                alt='Code Quiz' 
+                />
+           </a>
+
+           <Carousel.Caption >
+                <p id="description" style={{width:"25vw"}}>
+                Available @: <a href={ea} target='_blank' rel='noopener noreferrer'> Code Quiz App</a>
+                <a href={eb} target='_blank' rel='noopener noreferrer'> Code Quiz GitHub </a> 
+                
+                Technologies Used:
+                <div className='tech'>
+                {vscode} {html} {css}
+                </div>
+                <div className='tech'>
+                {javascript} {github}
+                </div>
+                </p>
+          </Carousel.Caption>
+
+        </Carousel.Item> 
+        {/* END #5 */}
+
+        {/* Slide #6 */}
+        <Carousel.Item interval={5000}>
+
+          <Carousel.Caption id="title">
               <div>
-              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, JavaScript.
-              Available @: https://safe-dusk-58943.herokuapp.com </p>
+              <h1 id="title" align="left">Note Taker</h1>
               </div>
           </Carousel.Caption>
+           
+          <a href={fa} target='_blank' rel='noopener noreferrer'> 
+                <img 
+                src={noteTaker} 
+                className='d-block w-40 mx-auto image1' 
+                alt='Note Taker' 
+                />
+           </a>
+          
+           <Carousel.Caption >
+                <p id="description" style={{width:"25vw"}}>
+                Available @: <a href={fa} target='_blank' rel='noopener noreferrer'> Note Taker App</a>
+                <a href={fb} target='_blank' rel='noopener noreferrer'> Note Taker GitHub </a> 
+                
+                Technologies Used:
+                <div className='tech'>
+                {vscode} {html} {css}
+                </div>
+                <div className='tech'>
+                {javascript} {github}
+                </div>
+                </p>
+          </Carousel.Caption>
+
         </Carousel.Item>
+         {/* END #6 */}
          
+         {/* #7 */}
+        <Carousel.Item interval={5000}>
+
+          <Carousel.Caption id="title">
+              <div>
+              <h1 id="title" align="left">Fitness Tracker</h1>
+              </div>
+          </Carousel.Caption>
+
+            <a href={fa} target='_blank' rel='noopener noreferrer'> 
+                <img 
+                src={fitTrack} 
+                className='d-block w-40 mx-auto image1' 
+                alt='Fitness Tracker' 
+                />
+           </a>
+
+           <Carousel.Caption >
+                <p id="description" style={{width:"25vw"}}>
+                Available @: <a href={ga} target='_blank' rel='noopener noreferrer'> Fitness Tracker App</a>
+                <a href={gb} target='_blank' rel='noopener noreferrer'> Fitness Tracker GitHub </a> 
+                
+                Technologies Used:
+                <div className='tech'>
+                {vscode} {html} {css}
+                </div>
+                <div className='tech'>
+                {javascript} {github}
+                </div>
+                </p>
+          </Carousel.Caption>
+        
+        </Carousel.Item>
+           {/* End #7 */}
+
          {/* #8 */}
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
