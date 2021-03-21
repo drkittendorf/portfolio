@@ -74,13 +74,26 @@ export default function Portfolio() {
       setIndex(selectedIndex);
     }; 
 
-     let aa = 'https://dales-google-books-app.herokuapp.com';
-     let ab = 'https://github.com/drkittendorf/google_books';
-     let ba = 'https://drkittendorf.github.io/05-work-day-scheduler/'
-     let bb = 'https://github.com/drkittendorf/05-work-day-scheduler';
-   
-
-     
+     const aa = 'https://dales-google-books-app.herokuapp.com';
+     const ab = 'https://github.com/drkittendorf/google_books';
+     const ba = 'https://drkittendorf.github.io/work-day-scheduler/';
+     const bb = 'https://github.com/drkittendorf/work-day-scheduler';
+     const ca = 'https://drkittendorf.github.io/employee-directory/';
+     const cb = 'https://github.com/drkittendorf/employee-directory/';
+     const da = 'https://safe-dusk-58943.herokuapp.com/'
+     const db = 'https://github.com/drkittendorf/burger'
+     const ea = 'https://drkittendorf.github.io/04CodeQuiz/'
+     const eb = 'https://github.com/drkittendorf/04CodeQuiz/'
+     const fa = 'https://frozen-mesa-87445.herokuapp.com/'
+     const fb = 'https://drkittendorf.github.io/11-note-taker/'
+     const ga = 'https://ancient-stream-67606.herokuapp.com/'
+     const gb = 'https://github.com/drkittendorf/17_workout_tracker'
+     const ha = ''
+     const hb = ''
+     const ia = 'https://drkittendorf.github.io/03PasswordGenerator/'
+     const ib = 'https://github.com/drkittendorf/03PasswordGenerator'
+     const ja = 'https://drkittendorf.github.io/01CodeRefactor/'
+     const jb = 'https://github.com/drkittendorf/01CodeRefactor'
      
 
     return (
@@ -162,37 +175,67 @@ export default function Portfolio() {
               <h1 id="title" align="left">Employee Directory</h1>
               </div>
           </Carousel.Caption>
-           <div> 
-           <img className="d-block w-40 mx-auto image1" src={empDir} 
-          href='https://drkittendorf.github.io/19-employee-directory/' alt="Employee Directory" target='_blank' rel='noopener noreferrer' />
-           </div>
-          <Carousel.Caption id="descdiv" >
-              <div>
-              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, JavaScript, VSCode, MongoDB 
-              Available @: https://drkittendorf.github.io/19-employee-directory </p>
-              </div>
+
+          <a href={ca} target='_blank' rel='noopener noreferrer'> 
+                <img 
+                src={empDir} 
+                className='d-block w-40 mx-auto image1' 
+                alt='Employee Directory' 
+                />
+           </a>
+
+           <Carousel.Caption >
+                <p id="description" style={{width:"25vw"}}>
+                Available @: <a href={ca} target='_blank' rel='noopener noreferrer'> Employee Directory</a>
+                <a href={cb} target='_blank' rel='noopener noreferrer'> Employee Directory GitHub </a> 
+                
+                Technologies Used:
+                <div className='tech'>
+                {vscode} {html} {css} {reacticon} 
+                </div>
+                <div className='tech'>
+                {javascript} {nodejs} {github}
+                </div>
+                </p>
           </Carousel.Caption>
+
         </Carousel.Item>
+        {/* END #3 */}
         
          {/* #4 */}
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
               <div>
-              <h1 id="title" align="left">Fitness Tracker</h1>
+              <h1 id="title" align="left">Burger App</h1>
               </div>
           </Carousel.Caption>
-           <div> 
-           <img className="d-block w-40 mx-auto image1" src={fitTrack} 
-          href='https://ancient-stream-67606.herokuapp.com/exercise' alt="Fitness Tracker" target='_blank' rel='noopener noreferrer' />
-           </div>
-          <Carousel.Caption id="descdiv" >
-              <div>
-              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, JavaScript, VSCode. 
-              Available @: https://ancient-stream-67606.herokuapp.com/exercise </p>
-              </div>
+
+          <a href={da} target='_blank' rel='noopener noreferrer'> 
+                <img 
+                src={burgerBender} 
+                className='d-block w-40 mx-auto image1' 
+                alt='Burger App' 
+                />
+           </a>
+              
+           <Carousel.Caption >
+                <p id="description" style={{width:"25vw"}}>
+                Available @: <a href={da} target='_blank' rel='noopener noreferrer'> Burger App</a>
+                <a href={db} target='_blank' rel='noopener noreferrer'> Burger App GitHub </a> 
+                
+                Technologies Used:
+                <div className='tech'>
+                {vscode} {html} {css}
+                </div>
+                <div className='tech'>
+                {javascript} {nodejs} {github}
+                </div>
+                </p>
           </Carousel.Caption>
+
         </Carousel.Item> 
-        
+        {/* END #4 */}
+
         {/* #5 */}
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
