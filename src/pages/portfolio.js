@@ -88,8 +88,8 @@ export default function Portfolio() {
      const fb = 'https://drkittendorf.github.io/11-note-taker/'
      const ga = 'https://ancient-stream-67606.herokuapp.com/'
      const gb = 'https://github.com/drkittendorf/17_workout_tracker'
-     const ha = ''
-     const hb = ''
+     const ha = 'https://drkittendorf.github.io/totallyNotTheDarkSide/'
+     const hb = 'https://github.com/drkittendorf/totallyNotTheDarkSide'
      const ia = 'https://drkittendorf.github.io/03PasswordGenerator/'
      const ib = 'https://github.com/drkittendorf/03PasswordGenerator'
      const ja = 'https://drkittendorf.github.io/01CodeRefactor/'
@@ -345,58 +345,107 @@ export default function Portfolio() {
         <Carousel.Item interval={5000}>
           <Carousel.Caption id="title">
               <div>
-              <h1 id="title" align="left">Note Taker</h1>
+              <h1 id="title" align="left">Space Portal</h1>
               </div>
           </Carousel.Caption>
-           <div> 
-           <img className="d-block w-40 mx-auto image1" src={noteTaker} 
-          href='https://frozen-mesa-87445.herokuapp.com/notes.html' alt="Note Taker" target='_blank' rel='noopener noreferrer' />
-           </div>
-          <Carousel.Caption id="descdiv" >
-              <div>
-              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, JavaScript.
-              Available @: https://frozen-mesa-87445.herokuapp.com/notes.html </p>
-              </div>
+           
+          <a href={ha} target='_blank' rel='noopener noreferrer'> 
+                <img 
+                src={spacPort} 
+                className='d-block w-40 mx-auto image1' 
+                alt='Space Portal' 
+                />
+           </a>
+
+           <Carousel.Caption >
+                <p id="description" style={{width:"25vw"}}>
+                Available @: <a href={ha} target='_blank' rel='noopener noreferrer'> Space Portal </a>
+                <a href={hb} target='_blank' rel='noopener noreferrer'> Space Portal GitHub </a> 
+                
+                Technologies Used:
+                <div className='tech'>
+                {vscode} {html} {css} 
+                </div>
+                <div className='tech'>
+                {javascript} {github}
+                </div>
+                 </p>
           </Carousel.Caption>
+
         </Carousel.Item>
+        {/* END #8 */}
          
          {/* #9 */}
         <Carousel.Item interval={5000}>
+
           <Carousel.Caption id="title">
               <div>
               <h1 id="title" align="left">Password Generator</h1>
               </div>
           </Carousel.Caption>
-           <div> 
-           <img className="d-block w-40 mx-auto image1" src={passGen} 
-          href='https://drkittendorf.github.io/03PasswordGenerator/' alt="Password Generator" target='_blank' rel='noopener noreferrer' />
-           </div>
-          <Carousel.Caption id="descdiv" >
-              <div>
-              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, JavaScript, VSCode.
-              Available @: https://drkittendorf.github.io/03PasswordGenerator </p>
-              </div>
+           
+          <a href={ia} target='_blank' rel='noopener noreferrer'> 
+                <img 
+                src={passGen} 
+                className='d-block w-40 mx-auto image1' 
+                alt='Fitness Tracker' 
+                />
+           </a>
+
+           <Carousel.Caption >
+                <p id="description" style={{width:"25vw"}}>
+                    Available @: <a href={ia} target='_blank' rel='noopener noreferrer'> Password Generator </a>
+                    <a href={ib} target='_blank' rel='noopener noreferrer'> Password Generator GitHub </a> 
+                    
+                    Technologies Used:
+                    <div className='tech'>
+                    {vscode} {html} {css} 
+                    </div>
+                    <div className='tech'>
+                    {javascript} {github}
+                    </div>         
+                </p>
           </Carousel.Caption>
+
         </Carousel.Item>
+        {/* END #9 */}
         
          {/* #10 */}
         <Carousel.Item interval={5000}>
+          
           <Carousel.Caption id="title">
               <div>
               <h1 id="title" align="left">Code Refactor</h1>
               </div>
           </Carousel.Caption>
-           <div> 
-           <img className="d-block w-40 mx-auto image1" src={codeRefactor} 
-          href='https://drkittendorf.github.io/01CodeRefactor/' alt="Note Taker" target='_blank' rel='noopener noreferrer' />
-           </div>
-          <Carousel.Caption id="descdiv" >
-              <div>
-              <p id="description" style={{width:"25vw"}}>Technologies Used: HTML, CSS, VSCode. 
-                Available @: https://drkittendorf.github.io/01CodeRefactor </p>
-              </div>
+          
+          <a href={fa} target='_blank' rel='noopener noreferrer'> 
+                <img 
+                src={codeRefactor} 
+                className='d-block w-40 mx-auto image1' 
+                alt='Code Refactor' 
+                />
+           </a>
+
+           <Carousel.Caption >
+                <p id="description" style={{width:"25vw"}}>
+                    Available @: <a href={ja} target='_blank' rel='noopener noreferrer'> Code Refactor </a>
+                    <a href={jb} target='_blank' rel='noopener noreferrer'> Code Refactor GitHub </a> 
+                    
+                    Technologies Used:
+                    <div className='tech'>
+                    {vscode} {html} {css}
+                    </div>
+                    <div className='tech'>
+                    {github}
+                    </div>
+                </p>
           </Carousel.Caption>
+
         </Carousel.Item>
+        {/* END #10 */}
+
+
       </Carousel>
     )
     };
