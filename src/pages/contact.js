@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/style.css"
 import dale from '../assets/images/aboutDale.png';
-import "../assets/css/style.css"
+
 
 function contact(){
     return(
