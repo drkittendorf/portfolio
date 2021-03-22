@@ -315,7 +315,7 @@ export default function Portfolio() {
               </div>
           </Carousel.Caption>
 
-            <a href={fa} target='_blank' rel='noopener noreferrer'> 
+            <a href={ga} target='_blank' rel='noopener noreferrer'> 
                 <img 
                 src={fitTrack} 
                 className='d-block w-40 mx-auto image1' 
@@ -388,7 +388,7 @@ export default function Portfolio() {
                 <img 
                 src={passGen} 
                 className='d-block w-40 mx-auto image1' 
-                alt='Fitness Tracker' 
+                alt='Password Generator' 
                 />
            </a>
 
@@ -419,7 +419,7 @@ export default function Portfolio() {
               </div>
           </Carousel.Caption>
           
-          <a href={fa} target='_blank' rel='noopener noreferrer'> 
+          <a href={ja} target='_blank' rel='noopener noreferrer'> 
                 <img 
                 src={codeRefactor} 
                 className='d-block w-40 mx-auto image1' 
