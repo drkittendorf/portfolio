@@ -2,7 +2,6 @@ import React from "react";
 import "../assets/css/style.css"
 import dale from '../assets/images/aboutDale.png';
 
-
 function about() {
   return (
     <div className="bodybody">
