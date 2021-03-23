@@ -1,12 +1,15 @@
 import React from "react";
-import "../assets/css/style.css"
 import dale from '../assets/images/aboutDale.png';
+//* CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "../assets/css/style.css"
+
 
 function about() {
   return (
     <div className="bodybody">
      
-         <div className='sideByPair'>
+         <div className='sideByPair mx-auto'>
                 <div className='aboutImage'> 
                     <img src={dale} alt="Dale Kittendorf"/> 
                 </div> 

@@ -1,6 +1,8 @@
 import React from "react";
-import "../assets/css/style.css"
 import dale from '../assets/images/aboutDale.png';
+//* CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "../assets/css/style.css"
 
 function contact(){
     return(
@@ -8,11 +10,11 @@ function contact(){
      
                 <div className='sideByPair'>
                         {/*pair of divs*/}
-                        <div className='aboutImage'> 
+                        <div className='aboutImage mx-auto'> 
                             <img src={dale} alt="Dale Kittendorf"/> 
                         </div> 
 
-                        <div className="aboutBody">
+                        <div className="aboutBody mx-auto">
                             <h1>Contact</h1>
                             <h2>           Email: drkittendorf@gmail.com               </h2>
                             <h2>                                                       </h2>

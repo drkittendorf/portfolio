@@ -54,8 +54,6 @@ h2 {
     color: white;
 }
 
-
-
 .body {
     position:relative;
     width: 100vw;
@@ -99,3 +97,9 @@ h2 {
     margin-bottom: 175%;
 }
 
+@media (max-width: 1272px) {
+    .aboutImage {
+        /* position: absolute; */
+        display: none;
+    }
+}

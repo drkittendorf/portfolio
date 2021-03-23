@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel';
-// import {Link} from 'react-router-dom'
 //* IMAGES OF PROJECTS
 import burgerBender from '../assets/images/BurgerBender.png';
 import codeQuiz from '../assets/images/CodeQuiz.png';
