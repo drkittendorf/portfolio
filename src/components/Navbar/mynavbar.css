@@ -24,3 +24,10 @@ a {
     align-items: stretch;
     z-index: 5000;
 }
+
+@media (max-width: 768px) {
+    .head {
+    display: flex;
+    flex-direction: row;
+  }
+}  
