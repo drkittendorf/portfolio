@@ -14,7 +14,7 @@ function about() {
                     <img src={dale} alt="Dale Kittendorf"/> 
                 </div> 
                 <div className="aboutBody">
-                    <h1>~ About ~</h1>
+                    <h1>~ About Dale ~</h1>
                         <p>
                             Thank You for visiting my portfolio site!
                         </p>

@@ -14,15 +14,15 @@ function contact(){
                             <img src={dale} alt="Dale Kittendorf"/> 
                         </div> 
 
-                        <div className="aboutBody mx-auto">
+                        <div className="contactBody mx-auto">
                             <h1>Contact</h1>
-                            <h2>           Email: drkittendorf@gmail.com               </h2>
-                            <h2>                                                       </h2>
-                            <h2>LinkedIn: https://www.linkedin.com/in/dalerkittendorf/ </h2>
-                            <h2>                                                       </h2>
-                            <h2>GitHub: https://github.com/drkittendorf                </h2>
-                            <h2>                                                       </h2>
-                            <h3>             Austin Tx                                 </h3>
+                            <h2> Email: </h2>
+                            <h2> drkittendorf@gmail.com </h2>
+                            <h2>LinkedIn:</h2>
+                            <h2> https://www.linkedin.com/in/dalerkittendorf </h2>
+                            <h2>GitHub:</h2>
+                            <h2>https://github.com/drkittendorf</h2>
+                            <h3>Austin Tx</h3>
                         </div>
 
                 </div>

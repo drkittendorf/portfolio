@@ -34,7 +34,7 @@ a {
 
 @media (max-width: 428px) {
     .navbar {
-    font-size: .5rem;
+    font-size: .75rem;
     margin: .75rem;
   }
 }  

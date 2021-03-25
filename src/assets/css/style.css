@@ -40,8 +40,8 @@ h2 {
     margin-bottom: 5%;
    }
 
-/* Used on contact */
-.contact {
+/* NOT Used on contact */
+/* .contact {
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -52,7 +52,19 @@ h2 {
     font-size: 1rem;
     font-family: 'Archivo', sans-serif;
     color: white;
-}
+} */
+
+.contactBody {
+    position: relative;
+    width: 40vw;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: right;
+    align-self: flex-end;
+    font-size: .75rem;
+    margin-bottom: 5%;
+   }
 
 .body {
     position:relative;
@@ -113,4 +125,16 @@ h2 {
         font-size: .75rem;
         margin-bottom: 5%;
        }
+       
+    .contactBody {
+        position: relative;
+        width: 70vw;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: right;
+        align-self: flex-end;
+        font-size: .75rem;
+        margin-bottom: 5%;
+       }   
 }
