@@ -28,5 +28,13 @@ a {
 @media (max-width: 768px) {
     .navbar {
     font-size: 1rem;
+    margin: 1rem;
+  }
+}  
+
+@media (max-width: 428px) {
+    .navbar {
+    font-size: .5rem;
+    margin: .75rem;
   }
 }  
