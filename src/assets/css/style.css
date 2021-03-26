@@ -26,44 +26,36 @@ h2 {
     /* align-items: left; */
     background: black;
     border-radius: 15rem;
-   
 }
-.aboutBody {
+
+.aboutBody {  
     position: relative;
     width: 40vw;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: right;
-    align-self: flex-end;
     font-size: .75rem;
     margin-bottom: 5%;
-   }
-
-/* NOT Used on contact */
-/* .contact {
-    width: 100vw;
+    /*FLEX BOX SETTINGS */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-start;
     align-self: flex-end;
-    text-align: center;
-    background: black;
-    font-size: 1rem;
-    font-family: 'Archivo', sans-serif;
-    color: white;
-} */
+   }
 
 .contactBody {
     position: relative;
     width: 40vw;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: right;
-    align-self: flex-end;
     font-size: .75rem;
     margin-bottom: 5%;
+    /*FLEX BOX SETTINGS */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: right;
+    align-content:center;
+    align-self: flex-end;
    }
 
 .body {
@@ -110,10 +102,16 @@ h2 {
 }
 
 @media (max-width: 1272px) {
+    h2 {
+        font-size: 1rem;
+      }
+
+    
     .aboutImage {
         /* position: absolute; */
         display: none;
     }
+
     .aboutBody {
         position: relative;
         width: 70vw;
