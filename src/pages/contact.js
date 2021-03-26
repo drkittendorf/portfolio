@@ -17,11 +17,12 @@ function contact(){
                         <div className="contactBody mx-auto">
                             <h1>Contact</h1>
                             <h2> Email: </h2>
-                            <h2> drkittendorf@gmail.com </h2>
+                          <a href='mailto:drkittendorf@gmail.com' target='_blank' rel='noopener noreferrer'> <h2> drkittendorf@gmail.com </h2> </a> 
                             <h2>LinkedIn:</h2>
-                            <h2> https://www.linkedin.com/in/dalerkittendorf </h2>
+                            <a href='https://www.linkedin.com/in/dalerkittendorf' target='_blank' rel='noopener noreferrer'> <h2> https://www.linkedin.com/in/dalerkittendorf</h2> </a> 
                             <h2>GitHub:</h2>
-                            <h2>https://github.com/drkittendorf</h2>
+                            <a href='https://github.com/drkittendorf' target='_blank' rel='noopener noreferrer'> <h2> https://github.com/drkittendorf </h2> </a>
+                            <h2></h2>
                             <h3>Austin Tx</h3>
                         </div>
 
