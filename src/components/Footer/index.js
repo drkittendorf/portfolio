@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div className = 'footer'>
     
-      <p>Copyright DM Web Development</p>
+    <footer> <small>&copy; Copyright 2020, DM Web Studio</small> </footer>
     
     </div>
   );

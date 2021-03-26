@@ -117,24 +117,31 @@ h2 {
     .aboutBody {
         position: relative;
         width: 70vw;
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column;
-        align-items: right;
-        align-self: flex-end;
         font-size: .75rem;
         margin-bottom: 5%;
-       }
-       
+        /*FLEX BOX SETTINGS */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: right;
+        align-content:center;
+        align-self: flex-end;
+    }
+
     .contactBody {
         position: relative;
         width: 70vw;
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column;
-        align-items: right;
-        align-self: flex-end;
         font-size: .75rem;
         margin-bottom: 5%;
-       }   
+        /*FLEX BOX SETTINGS */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: right;
+        align-content:center;
+        align-self: flex-end;
+        
+     }   
 }
