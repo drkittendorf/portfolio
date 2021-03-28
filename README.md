@@ -78,15 +78,10 @@ The dependencies listed below are all the core NPM packages used throughout the 
 
 For `future` development, I would like to incorporate the following `enhancements` into my portfolio:
 
-- Add software Icons
-- Add github and project links to all projects
 - Update Fonts
 - Enhance the portfolio platform by adding more content and continuing to revise projects
-- Develop better responsiveness for various screen sizes
-- Tighten up sizes and review fonts
-- Adjust Footer spacing
-- Cleaner styling
-- Cleanup CSS
+- Replace Media Queries with higher order components
+- Cleanup unused CSS
 - Add Screenshots and videos to ReadMe
 - Add Modal for resume display prior to opening in new window
 

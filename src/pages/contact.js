@@ -15,8 +15,7 @@ function contact(){
                         </div> 
 
                         <div className="contactBody mx-auto">
-                            <h1>Contact</h1>
-                            <br></br>
+                        <h2>Contact</h2>
                             <h2> Email: </h2>
                           <a href='mailto:drkittendorf@gmail.com' target='_blank' rel='noopener noreferrer'> <h2> drkittendorf@gmail.com </h2> </a> 
                           <h2>GitHub:</h2>
@@ -24,8 +23,7 @@ function contact(){
                             
                             <h2>LinkedIn:</h2>
                             <a href='https://www.linkedin.com/in/dalerkittendorf' target='_blank' rel='noopener noreferrer'> <h2> https://www.linkedin.com/in/dalerkittendorf</h2> </a> 
-                            
-                            
+                               
                         </div>
 
                 </div>

@@ -86,7 +86,7 @@ export default function Portfolio() {
      const fa = 'https://frozen-mesa-87445.herokuapp.com/'
      const fb = 'https://drkittendorf.github.io/11-note-taker/'
      const ga = 'https://ancient-stream-67606.herokuapp.com/'
-     const gb = 'https://github.com/drkittendorf/17_workout_tracker'
+     const gb = 'https://github.com/drkittendorf/workout_tracker'
      const ha = 'https://drkittendorf.github.io/totallyNotTheDarkSide/'
      const hb = 'https://github.com/drkittendorf/totallyNotTheDarkSide'
      const ia = 'https://drkittendorf.github.io/03PasswordGenerator/'

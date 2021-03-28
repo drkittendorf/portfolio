@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div className = 'footer'>
     
-    <footer> <small>&copy; Copyright 2020, DM Web Studio</small> </footer>
+    <footer> &copy; Copyright 2020, DRK Web Studio </footer>
     
     </div>
   );
