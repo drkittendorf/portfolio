@@ -84,7 +84,7 @@ export default function Portfolio() {
      const ea = 'https://drkittendorf.github.io/04CodeQuiz/'
      const eb = 'https://github.com/drkittendorf/04CodeQuiz/'
      const fa = 'https://frozen-mesa-87445.herokuapp.com/'
-     const fb = 'https://drkittendorf.github.io/11-note-taker/'
+     const fb = 'https://drkittendorf.github.io/note-taker/'
      const ga = 'https://ancient-stream-67606.herokuapp.com/'
      const gb = 'https://github.com/drkittendorf/workout_tracker'
      const ha = 'https://drkittendorf.github.io/totallyNotTheDarkSide/'
