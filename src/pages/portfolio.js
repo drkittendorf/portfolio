@@ -81,18 +81,18 @@ export default function Portfolio() {
      const cb = 'https://github.com/drkittendorf/employee-directory/';
      const da = 'https://safe-dusk-58943.herokuapp.com/'
      const db = 'https://github.com/drkittendorf/burger'
-     const ea = 'https://drkittendorf.github.io/04CodeQuiz/'
-     const eb = 'https://github.com/drkittendorf/04CodeQuiz/'
+     const ea = 'https://drkittendorf.github.io/code-quiz/'
+     const eb = 'https://github.com/drkittendorf/code-quiz/'
      const fa = 'https://frozen-mesa-87445.herokuapp.com/'
      const fb = 'https://drkittendorf.github.io/note-taker/'
      const ga = 'https://ancient-stream-67606.herokuapp.com/'
      const gb = 'https://github.com/drkittendorf/workout_tracker'
      const ha = 'https://drkittendorf.github.io/totallyNotTheDarkSide/'
      const hb = 'https://github.com/drkittendorf/totallyNotTheDarkSide'
-     const ia = 'https://drkittendorf.github.io/03PasswordGenerator/'
-     const ib = 'https://github.com/drkittendorf/03PasswordGenerator'
-     const ja = 'https://drkittendorf.github.io/01CodeRefactor/'
-     const jb = 'https://github.com/drkittendorf/01CodeRefactor'
+     const ia = 'https://drkittendorf.github.io/password-generator/'
+     const ib = 'https://github.com/drkittendorf/password-generator'
+     const ja = 'https://drkittendorf.github.io/code-refactor/'
+     const jb = 'https://github.com/drkittendorf/code-refactor'
      
 
     return (
