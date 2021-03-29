@@ -9,6 +9,7 @@ import About from './pages/about';
 import Contact from './pages/contact'
 import Portfolio from './pages/portfolio'
 import Error from "./pages/errPage";
+import './assets/css/fonts.css';
 
 function App() {
   return (

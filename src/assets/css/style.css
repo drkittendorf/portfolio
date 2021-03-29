@@ -52,6 +52,7 @@ h2 {
 .aboutBody {  
     position: relative;
     width: 40vw;
+    font-family: roboto;
     font-size: .75rem;
     margin-bottom: 5%;
     /*FLEX BOX SETTINGS */
@@ -67,6 +68,7 @@ h2 {
 .contactBody {
     position: relative;
     width: 40vw;
+    font-family: roboto;
     font-size: .75rem;
     margin-bottom: 5%;
     /*FLEX BOX SETTINGS */
