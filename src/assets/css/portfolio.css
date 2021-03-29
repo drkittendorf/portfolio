@@ -67,7 +67,9 @@
 }
 .image1:hover {
     transform: scale(1.00);
-    border: 0.2rem solid white;
+    border:  0.125rem double #f7df1e;
+    
+  
 }
 
  
