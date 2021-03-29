@@ -15,14 +15,15 @@ function contact(){
                         </div> 
 
                         <div className="contactBody mx-auto">
-                        <h2>Contact</h2>
+                        <h1>Contact</h1>
+                        <br></br>
                             <h2> Email: </h2>
-                          <a href='mailto:drkittendorf@gmail.com' target='_blank' rel='noopener noreferrer'> <h2> drkittendorf@gmail.com </h2> </a> 
+                          <a href='mailto:drkittendorf@gmail.com' className='lynx' target='_blank' rel='noopener noreferrer'> <h2> drkittendorf@gmail.com </h2> </a> 
                           <h2>GitHub:</h2>
-                            <a href='https://github.com/drkittendorf' target='_blank' rel='noopener noreferrer'> <h2> https://github.com/drkittendorf </h2> </a>
+                            <a href='https://github.com/drkittendorf' className='lynx' target='_blank' rel='noopener noreferrer'> <h2> https://github.com/drkittendorf </h2> </a>
                             
                             <h2>LinkedIn:</h2>
-                            <a href='https://www.linkedin.com/in/dalerkittendorf' target='_blank' rel='noopener noreferrer'> <h2> https://www.linkedin.com/in/dalerkittendorf</h2> </a> 
+                            <a href='https://www.linkedin.com/in/dalerkittendorf' className='lynx' target='_blank' rel='noopener noreferrer'> <h2> https://www.linkedin.com/in/dalerkittendorf</h2> </a> 
                                
                         </div>
 
