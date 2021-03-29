@@ -13,6 +13,7 @@
 - [FUTURE DEVELOPMENT](#FUTURE-DEVELOPMENT)
 - [LICENSING](#LICENSING)
 - [SCREENSHOTS](#SCREENSHOTS-AND-VIDEO)
+- [NOTES](#CSS)
 
 ---
 ## CONTRIBUTORS
@@ -81,7 +82,7 @@ For `future` development, I would like to incorporate the following `enhancement
 - Update Fonts
 - Enhance the portfolio platform by adding more content and continuing to revise projects
 - Replace Media Queries with higher order components
-- Cleanup unused CSS
+- Refine CSS - reuse/ reorganize
 - Add Screenshots and videos to ReadMe
 - Add Modal for resume display prior to opening in new window
 
@@ -107,3 +108,10 @@ The code in this project is licensed under MIT license.
 <br>
 
 ---
+
+- ### CSS
+
+- portfolio.css applies only to portfolio page
+- style.css used generally throughout pages
+- Footer, Header, and Navbar all have their own CSS
+- 

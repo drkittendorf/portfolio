@@ -8,19 +8,19 @@ function Navbar() {
     return (
         <nav className='navbar'>
            <div className='divbar'>  
-            <a href='https://github.com/drkittendorf' className='gittycat' 
+            <a href='https://github.com/drkittendorf' className='gittycat lynx' 
             target='_blank' rel='noopener noreferrer'> 
             <i className='fab fa-github fa-3x icon'></i> 
             </a> 
 
-            <Link to={"/portfolio/about"} className="">About</Link>
-            <Link to={"/portfolio/contact"} className="">Contact</Link>
-            <Link to={"/portfolio/portfolio"} className="">Portfolio</Link>
+            <Link to={"/portfolio/about"} className="lynx">About</Link>
+            <Link to={"/portfolio/contact"} className="lynx">Contact</Link>
+            <Link to={"/portfolio/portfolio"} className="lynx">Portfolio</Link>
             
             <a href={resume} target="_blank" 
-            rel='noopener noreferrer' className=""> Resume</a>
+            rel='noopener noreferrer' className="lynx"> Resume</a>
             
-            <a href="https://www.linkedin.com/in/dalerkittendorf" target="_blank" className='' 
+            <a href="https://www.linkedin.com/in/dalerkittendorf" target="_blank" className='lynx' 
             rel='noopener noreferrer'><i className="fab fa-linkedin fa-3x icon"></i></a>
            </div>
         </nav>
