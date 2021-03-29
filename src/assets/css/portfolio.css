@@ -1,3 +1,29 @@
+/* unvisited link */
+.lynx:link {
+    color: #589636;
+  }
+  
+  /* visited link */
+.lynx:visited {
+    color: #589636;
+  }
+  
+  /* mouse over link */
+.lynx:hover {
+    color:#f7df1e;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+.lynx:active {
+    color: #589636;
+  }
+
+
+
+
+
+
 /*!Used on Portfolio */
 .hbody {
     display: flex;

@@ -41,7 +41,7 @@ const vscode =
      src={vscodeIcon} 
      />
 const github = 
-     <img align="left" 
+     <img align="left"
      alt="GitHub" width="10%" height="10%" 
      src={githubIcon} 
      />
@@ -115,8 +115,8 @@ export default function Portfolio() {
                      
           <Carousel.Caption >
                 <p id="description" style={{width:"25vw"}}>
-                Available @: <a href={aa} target='_blank' rel='noopener noreferrer'> Google Books </a>
-                <a href={ab} target='_blank' rel='noopener noreferrer'> Google Books GitHub </a> 
+                Available @: <a href={aa} className= 'lynx' target='_blank' rel='noopener noreferrer'> Google Books </a>
+                <a href={ab} className= 'lynx' target='_blank' rel='noopener noreferrer'> Google Books GitHub </a> 
                 
                 Technologies Used:
                 <div className='tech'>
@@ -151,8 +151,8 @@ export default function Portfolio() {
           <Carousel.Caption id="descdiv" >
             
                 <p id="description" style={{width:"25vw"}}>
-                Available @: <a href={ba} target='_blank' rel='noopener noreferrer'> Work Day Scheduler Live App </a>
-                <a href={bb} target='_blank' rel='noopener noreferrer'> Work Day Scheduler Git Hub  </a> 
+                Available @: <a href={ba} className= 'lynx' target='_blank' rel='noopener noreferrer'> Work Day Scheduler Live App </a>
+                <a href={bb} className= 'lynx' target='_blank' rel='noopener noreferrer'> Work Day Scheduler Git Hub  </a> 
                 
                 Technologies Used:
                 <div className='tech'>
@@ -185,8 +185,8 @@ export default function Portfolio() {
 
            <Carousel.Caption >
                 <p id="description" style={{width:"25vw"}}>
-                Available @: <a href={ca} target='_blank' rel='noopener noreferrer'> Employee Directory</a>
-                <a href={cb} target='_blank' rel='noopener noreferrer'> Employee Directory GitHub </a> 
+                Available @: <a href={ca} className= 'lynx' target='_blank' rel='noopener noreferrer'> Employee Directory</a>
+                <a href={cb} className= 'lynx' target='_blank' rel='noopener noreferrer'> Employee Directory GitHub </a> 
                 
                 Technologies Used:
                 <div className='tech'>
@@ -219,8 +219,8 @@ export default function Portfolio() {
               
            <Carousel.Caption >
                 <p id="description" style={{width:"25vw"}}>
-                Available @: <a href={da} target='_blank' rel='noopener noreferrer'> Burger App</a>
-                <a href={db} target='_blank' rel='noopener noreferrer'> Burger App GitHub </a> 
+                Available @: <a href={da} className= 'lynx' target='_blank' rel='noopener noreferrer'> Burger App</a>
+                <a href={db} className= 'lynx' target='_blank' rel='noopener noreferrer'> Burger App GitHub </a> 
                 
                 Technologies Used:
                 <div className='tech'>
@@ -254,8 +254,8 @@ export default function Portfolio() {
 
            <Carousel.Caption >
                 <p id="description" style={{width:"25vw"}}>
-                Available @: <a href={ea} target='_blank' rel='noopener noreferrer'> Code Quiz App</a>
-                <a href={eb} target='_blank' rel='noopener noreferrer'> Code Quiz GitHub </a> 
+                Available @: <a href={ea} className= 'lynx' target='_blank' rel='noopener noreferrer'> Code Quiz App</a>
+                <a href={eb} className= 'lynx' target='_blank' rel='noopener noreferrer'> Code Quiz GitHub </a> 
                 
                 Technologies Used:
                 <div className='tech'>
@@ -289,8 +289,8 @@ export default function Portfolio() {
           
            <Carousel.Caption >
                 <p id="description" style={{width:"25vw"}}>
-                Available @: <a href={fa} target='_blank' rel='noopener noreferrer'> Note Taker App</a>
-                <a href={fb} target='_blank' rel='noopener noreferrer'> Note Taker GitHub </a> 
+                Available @: <a href={fa} className= 'lynx' target='_blank' rel='noopener noreferrer'> Note Taker App</a>
+                <a href={fb} className= 'lynx' target='_blank' rel='noopener noreferrer'> Note Taker GitHub </a> 
                 
                 Technologies Used:
                 <div className='tech'>
@@ -324,8 +324,8 @@ export default function Portfolio() {
 
            <Carousel.Caption >
                 <p id="description" style={{width:"25vw"}}>
-                Available @: <a href={ga} target='_blank' rel='noopener noreferrer'> Fitness Tracker App</a>
-                <a href={gb} target='_blank' rel='noopener noreferrer'> Fitness Tracker GitHub </a> 
+                Available @: <a href={ga} className= 'lynx' target='_blank' rel='noopener noreferrer'> Fitness Tracker App</a>
+                <a href={gb} className= 'lynx' target='_blank' rel='noopener noreferrer'> Fitness Tracker GitHub </a> 
                 
                 Technologies Used:
                 <div className='tech'>
@@ -358,8 +358,8 @@ export default function Portfolio() {
 
            <Carousel.Caption >
                 <p id="description" style={{width:"25vw"}}>
-                Available @: <a href={ha} target='_blank' rel='noopener noreferrer'> Space Portal </a>
-                <a href={hb} target='_blank' rel='noopener noreferrer'> Space Portal GitHub </a> 
+                Available @: <a href={ha} className= 'lynx' target='_blank' rel='noopener noreferrer'> Space Portal </a>
+                <a href={hb} className= 'lynx' target='_blank' rel='noopener noreferrer'> Space Portal GitHub </a> 
                 
                 Technologies Used:
                 <div className='tech'>
@@ -393,8 +393,8 @@ export default function Portfolio() {
 
            <Carousel.Caption >
                 <p id="description" style={{width:"25vw"}}>
-                    Available @: <a href={ia} target='_blank' rel='noopener noreferrer'> Password Generator </a>
-                    <a href={ib} target='_blank' rel='noopener noreferrer'> Password Generator GitHub </a> 
+                    Available @: <a href={ia} className= 'lynx' target='_blank' rel='noopener noreferrer'> Password Generator </a>
+                    <a href={ib} className= 'lynx' target='_blank' rel='noopener noreferrer'> Password Generator GitHub </a> 
                     
                     Technologies Used:
                     <div className='tech'>
@@ -428,8 +428,8 @@ export default function Portfolio() {
 
            <Carousel.Caption >
                 <p id="description" style={{width:"25vw"}}>
-                    Available @: <a href={ja} target='_blank' rel='noopener noreferrer'> Code Refactor </a>
-                    <a href={jb} target='_blank' rel='noopener noreferrer'> Code Refactor GitHub </a> 
+                    Available @: <a href={ja} className= 'lynx' target='_blank' rel='noopener noreferrer'> Code Refactor </a>
+                    <a href={jb} className= 'lynx' target='_blank' rel='noopener noreferrer'> Code Refactor GitHub </a> 
                     
                     Technologies Used:
                     <div className='tech'>
