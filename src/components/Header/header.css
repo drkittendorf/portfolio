@@ -1,20 +1,44 @@
+.header {
+    /*FLEX BOX SETTINGS */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    align-self: center;
+}
+
+
 .head {
-    position:relative;
-    width: 100vw;
+    /*FLEX BOX SETTINGS */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    align-self: center;
+
+    /* position: fixed; */
+    width: 66vw;
     height: 10vh;
     text-align: center;
     background: black;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: Raleway;
     /* color: hsl(32, 98%, 64%); */
     /* color: rgb(58, 211, 58); */
-    color:   #f7df1e;
-     /*FLEX BOX SETTINGS */
-     display: flex;
-     flex-direction: column;
-     flex-wrap: nowrap;
-     justify-content: center;
-     align-items: center;
-     align-content:center;
-     align-self: flex-start;
+    color:  #f7df1e;
 }
+
+.lside {
+   width: 17vw;
+   height: 10vh;
+
+}
+.rside {
+    width: 17vw;
+    height: 10vh;
+ 
+ }
