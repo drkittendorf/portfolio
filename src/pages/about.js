@@ -15,13 +15,12 @@ function about() {
                 </div> 
                 <div className="aboutBody">
                     <h1>About Dale </h1>
+                    <h2>Full Stack Web Developer / Librarian</h2>
                         <p>
-                            Thank You for visiting my portfolio site!
-                        </p>
-        
-                        <p>
-                        I am a web developer committed to a life of learning. I have recently completed my Full Stack Web Development Certificate at the University of Texas, Austin. 
-                        I also have a background in Library and Information Science. Since moving to Austin in 2014 I have had the opportunity to explore the film and music industry.
+                        In 2020 I completed my Full Stack Web Development Certificate at the University of Texas.
+                        
+                        Prior to taking this course I had been employed as a Librarian in many different capacities over the past 20 years.
+                        Since moving to Austin in 2014 I have had the opportunity to explore the film and music industry.
                         While at Austin Public Library I lead the development of the  Electric Lady Bird streaming music service 
                         and initiated the development of a Sight and Sound team at the Library.
                         </p>

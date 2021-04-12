@@ -53,16 +53,17 @@ h2 {
     position: relative;
     width: 40vw;
     font-family: roboto;
-    font-size: .75rem;
+    font-size: .85rem;
     margin-bottom: 5%;
     /*FLEX BOX SETTINGS */
     display: flex;
+    direction: ltr;
     flex-direction: column;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap;
     justify-content: flex-end;
     align-items: center;
     align-content: flex-start;
-    align-self: flex-end;
+    align-self: flex-end; */
    }
 
 .contactBody {
@@ -124,11 +125,12 @@ h2 {
     margin-bottom: 175%;
 }
 
+
+/*!! BEGIN MEDIA QUERIES */
 @media (max-width: 1272px) {
     h2 {
         font-size: 1rem;
       }
-
     
     .aboutImage {
         /* position: absolute; */
@@ -149,7 +151,7 @@ h2 {
         align-content:center;
         align-self: flex-end;
     }
-
+/*!! MID-MEDIA QUERIES */
     .contactBody {
         position: relative;
         width: 70vw;
@@ -167,3 +169,4 @@ h2 {
         
      }   
 }
+/*!! END MEDIA QUERIES */
