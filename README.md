@@ -80,7 +80,6 @@ The dependencies listed below are all the core NPM packages used throughout the 
 For `future` development, I would like to incorporate the following `enhancements` into my portfolio:
 
 - Fix Github and MongoDb logos on portfolio
-- Update Fonts
 - Add project summary under title
 - Enhance the portfolio platform by adding more content and continuing to revise projects
 - Replace Media Queries with higher order components

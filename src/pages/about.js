@@ -34,11 +34,12 @@ function about() {
 
                         <p>
                         Througout my working life I have been guided by the principles of providing excellent customer service, whether those are internal or external customers.
-                        I also have experience in managing budgets, projects and personnel. 
+                        I also have experience in managing budgets, projects and personnel. I've recently signed up for a Java bootcamp.
                         In my spare time I enjoy video and board games, listening to music, watching and discussing film and television and fresh dining experiences.  
                         </p>
                 </div>
         </div>
+        {/*Addimages Here*/}
       
     </div>
   );
