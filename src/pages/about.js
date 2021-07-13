@@ -42,9 +42,8 @@ function about() {
                         React and some exposure to Handlebars, Materialize, </strong> 
                         Since completing the Web Development bootcamp last year, I've continued to reinforce my knowledge of programming, through continued learning and practice.
                         I have also had the opportunity to complete a Java / React Native bootcamp to expand my programming horizons. I'm excited to add these technologies to my toolbelt 
-                        and have found that learning these new tehcnologies have served to reinforce previous lessons in JavaScript and React.
+                        and have found that learning these new technologies have served to reinforce previous lessons in JavaScript and React.
                         </p>
-
                         <h5>Values and Interests</h5>
                         <p>
                         Througout my working life I have been guided by the principles of providing excellent customer service, for internal and external customers. 
