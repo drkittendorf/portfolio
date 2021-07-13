@@ -31,6 +31,7 @@ function about() {
                         with the use of 360° cameras to record musical perfromances, with an eye toward developing a collection of VR videos accessible through the internet.
                         These experiences inspired me to dive deeper into web development.
                         </p>
+
                         <h5>Software Development</h5>
                         <p>
                         During the early 2000s I worked as a web specialist, using Dreamweaver and Adobe Suite to create and maintain a library website. At the same time I explored the use of CMS tools:
@@ -39,15 +40,18 @@ function about() {
                         </p>
                         <p>
                         Through the bootcamp at UT I gained deeper knowledge of <strong> CSS, HTML5, JavaScript, and MySQL, while getting experience with Git, Node.js, MongoDB, Bootstrap, 
-                        React and some exposure to Handlebars, Materialize, </strong> 
+                        React and some exposure to Handlebars, Material Design, JQuery, and more.  </strong> 
                         Since completing the Web Development bootcamp last year, I've continued to reinforce my knowledge of programming, through continued learning and practice.
-                        I have also had the opportunity to complete a Java / React Native bootcamp to expand my programming horizons. I'm excited to add these technologies to my toolbelt 
-                        and have found that learning these new technologies have served to reinforce previous lessons in JavaScript and React.
+                        I have also had the opportunity to complete a Java / React Native bootcamp to expand my programming horizons, this time through Southern Methodist University.
+                        I'm excited to add these technologies to my toolbelt and have found that learning these new technologies have also served to reinforce previous lessons in JavaScript and React. 
+                        In 6 weeks we covered Java, SpringBoot, JUnit / Unit Testing, MVC Model, APIs, security using JWT as well as OAuth , deploying on Netlify, AWS and more.
                         </p>
+
                         <h5>Values and Interests</h5>
                         <p>
                         Througout my working life I have been guided by the principles of providing excellent customer service, for internal and external customers. 
-                        I've excelled at learning new skills on the job and I learn most effectively with direct application. I value communication and collaboration as well as taking calculated risks for innovative solutions. 
+                        I've excelled at learning new skills on the job and I learn most effectively with direct application. 
+                        I value communication and collaboration as well as taking calculated risks for innovative solutions. 
                         I manage my stress by walking outdoors, journaling, meditating, and listening to music. 
                         In my spare time I enjoy, spending time with my girlfriend, playing video and board games, collecting music, creative writing and discovering fresh dining experiences. 
                         </p>
