@@ -1,7 +1,7 @@
 //* NAVBAR INDEX
 import React from 'react';
 import {Link} from "react-router-dom"
-import resume from '../../assets/images/DaleRKittendorf2021ResumeForWeb.pdf';
+import resume from '../../assets/images/DaleRKittendorfResume2021ForWeb.pdf';
 import './mynavbar.css'
 
 function Navbar() {
